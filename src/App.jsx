@@ -13,6 +13,7 @@ import ReflectiveWriting from "../ReflectiveWriting/ReflectiveWriting";
 import ResumeWriting from "../ResumeWriting/ResumeWriting";
 import ResearchWriting from "../ResearchWriting/ResearchWriting";
 import DissertationWriting from "../DissertationWriting/DissertationWriting";
+import HomeworkHelp from "../HomeworkHelp/HomeworkHelp";
 
 function App() {
   return (
@@ -27,6 +28,7 @@ function App() {
         <Route path="/resumeWriting" element={<ResumeWriting />} />
         <Route path="/researchWriting" element={<ResearchWriting />} />
         <Route path="/dissertationWriting" element={<DissertationWriting />} />
+        <Route path="/homeworkHelp" element={<HomeworkHelp />} />
       </Routes>
 
       <Footer />
