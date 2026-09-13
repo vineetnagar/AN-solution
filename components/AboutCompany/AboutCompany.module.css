@@ -1,0 +1,144 @@
+.aboutCompany {
+  margin-top: 6rem;
+}
+
+.aboutCompany_data {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.aboutCompany_data_left {
+  height: max-content;
+  width: 45%;
+}
+
+.aboutCompany_data_left_headings h2 {
+  font-weight: 700;
+}
+
+.aboutCompany_data_left_headings p {
+  font-size: 0.8rem;
+  font-weight: 700;
+  color: #00a2ff;
+}
+
+.aboutCompany_data_left_info {
+  font-size: 0.85rem;
+  color: #828282;
+}
+
+.aboutCompany_data_left_founders {
+  display: flex;
+  gap: 2rem;
+}
+
+.aboutCompany_data_left_founders p {
+  color: #00a2ff;
+  font-weight: 500;
+}
+
+@media (max-width: 373px) {
+  .aboutCompany {
+    margin-top: 4rem;
+  }
+  .aboutCompany_data {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 1.5rem;
+    padding: 0 1rem;
+  }
+  .aboutCompany_data_left,
+  .aboutCompany_data_right {
+    width: 100%;
+  }
+  .aboutCompany_data_left_headings h2 {
+    font-size: 1.4rem;
+  }
+  .aboutCompany_data_left_info {
+    font-size: 0.95rem;
+    line-height: 150%;
+  }
+  .aboutCompany_data_left_founders {
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+  .aboutCompany_img {
+    max-width: 100%;
+  }
+}
+
+@media (min-width: 374px) and (max-width: 575px) {
+  .aboutCompany {
+    margin-top: 4.5rem;
+  }
+  .aboutCompany_data {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 1.5rem;
+    padding: 0 1.2rem;
+  }
+  .aboutCompany_data_left,
+  .aboutCompany_data_right {
+    width: 100%;
+  }
+  .aboutCompany_data_left_headings h2 {
+    font-size: 1.5rem;
+  }
+  .aboutCompany_data_left_info {
+    font-size: 0.95rem;
+    line-height: 150%;
+  }
+  .aboutCompany_data_left_founders {
+    flex-wrap: wrap;
+    gap: 1rem;
+  }
+  .aboutCompany_img {
+    max-width: 90%;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+  .aboutCompany_data {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 2rem;
+    padding: 0 2rem;
+  }
+  .aboutCompany_data_left,
+  .aboutCompany_data_right {
+    width: 100%;
+  }
+  .aboutCompany_data_left_headings h2 {
+    font-size: 1.6rem;
+  }
+  .aboutCompany_data_left_info {
+    font-size: 1rem;
+    line-height: 150%;
+  }
+  .aboutCompany_data_left_founders {
+    gap: 1.5rem;
+  }
+  .aboutCompany_img {
+    max-width: 70%;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .aboutCompany_data {
+    justify-content: space-between;
+    gap: 1.5rem;
+    padding: 0 2rem;
+  }
+  .aboutCompany_data_left {
+    width: 55%;
+  }
+  .aboutCompany_data_left_info {
+    font-size: 0.9rem;
+  }
+  .aboutCompany_data_right {
+    width: 45%;
+  }
+  .aboutCompany_img {
+    max-width: 350px;
+  }
+}

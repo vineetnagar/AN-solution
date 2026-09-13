@@ -1,0 +1,29 @@
+.NumberShow_headings {
+  text-align: center;
+}
+
+.NumberShow_headings p {
+  color: #828282;
+}
+
+.NumberShow_headings h3 {
+  font-weight: 700;
+}
+
+.NumberShow_data {
+  display: flex;
+  justify-content: space-evenly;
+  text-align: center;
+  margin-top: 7rem;
+}
+
+.NumberShow_data_info h2 {
+  font-weight: 800;
+  font-size: 2.5rem;
+}
+
+.NumberShow_data_info p {
+  color: black;
+  font-weight: 700;
+  font-size: 0.9rem;
+}

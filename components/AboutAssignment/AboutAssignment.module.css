@@ -1,0 +1,74 @@
+.AboutAssignment {
+  display: flex;
+  margin-top: 6rem;
+}
+
+.AboutAssignment_left {
+  padding: 4rem 0;
+}
+
+.AboutAssignment_topics {
+  display: grid;
+  gap: 1rem;
+  font-size: 0.9rem;
+  font-weight: 500;
+  grid-template-columns: repeat(7, 1fr);
+}
+
+.AboutAssignment_topics p:last-child {
+  grid-column: 1 / -1;
+  justify-self: center;
+}
+.AboutAssignment_topics p {
+  height: 2rem;
+  width: max-content;
+  text-align: center;
+  line-height: 2rem;
+  padding: 0 1rem;
+  border-bottom: 2px solid transparent;
+  cursor: pointer;
+}
+
+.AboutAssignment_topics :hover {
+  border-bottom: 2px solid#00a2ff;
+  transition: all 0.2s ease-in;
+  color: #00a2ff;
+}
+
+.AboutAssignment_info {
+  padding: 1rem;
+}
+
+.AboutAssignment_info h4 {
+  margin-top: 2rem;
+  font-weight: 700;
+}
+
+.AboutAssignment_info p {
+  font-size: 0.9rem;
+  color: #828282;
+}
+
+.AboutAssignment_info_list {
+  display: flex;
+  justify-content: space-between;
+  color: #828282;
+  font-size: 0.9rem;
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .AboutAssignment {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+  .AboutAssignment {
+    display: flex;
+    flex-direction: column;
+  }
+  .AboutAssignment_topics {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
