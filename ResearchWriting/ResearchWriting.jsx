@@ -68,35 +68,32 @@ const ResearchWriting = () => {
           </div>
 
           <div className={Style.researchWriting_container_left_data_second}>
-            <h5>Case Study Assignment Essay</h5>
+            <h5>
+              Methods Of Writing An Effective Research Paper Writing Services
+            </h5>
             <p>
-              Unlock the secrets to exceptional case studies with our experts at
-              Arc Creatif Solution. Follow our criteria for outstanding results
-              in your academic assignments.
+              There are a few basic steps that our experts delivering research
+              paper writing service in India take while effectively assisting
+              assignments for students. These steps are given down below -
             </p>
 
             <p>
-              <MdOutlineVerifiedUser />A clear problem statement must be
-              defined.
+              <MdOutlineVerifiedUser
+                className={Style.essayWriting_verified_icon}
+              />
+              Collecting The Data
             </p>
             <p>
-              <MdOutlineVerifiedUser />
-              There must be a clear identification of all the literature
-              concepts.
+              <MdOutlineVerifiedUser
+                className={Style.essayWriting_verified_icon}
+              />
+              Preparing Your First Draft
             </p>
             <p>
-              <MdOutlineVerifiedUser />
-              The quality of literature review is important. It needs to present
-              independent and extensive research conducted.
-            </p>
-            <p>
-              <MdOutlineVerifiedUser />
-              The case study needs to be a demonstration of critical thinking.
-            </p>
-            <p>
-              <MdOutlineVerifiedUser />
-              There needs to be a clear conceptual or theoretical model in
-              place.
+              <MdOutlineVerifiedUser
+                className={Style.essayWriting_verified_icon}
+              />
+              Structure Of A Research Paper
             </p>
           </div>
         </div>
