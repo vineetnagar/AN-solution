@@ -48,11 +48,11 @@ const EssayWriting = () => {
             <h3>Essay Writing Help Assignment</h3>
             <p>
               Delving into the realm of essay writing often entails a
-              significant investment of time and effort. At Arc Creatif
-              Solution, we understand the intricacies and challenges associated
-              with crafting compelling essays. By joining our platform, you open
-              the door to a transformative experience that goes beyond
-              traditional essay writing support.
+              significant investment of time and effort. At AN Solution, we
+              understand the intricacies and challenges associated with crafting
+              compelling essays. By joining our platform, you open the door to a
+              transformative experience that goes beyond traditional essay
+              writing support.
             </p>
             <p>
               Our commitment to your success is reflected in the time we save
@@ -64,18 +64,18 @@ const EssayWriting = () => {
               perspective and voice.
             </p>
             <p>
-              So, why join us? Beyond the time saved, Arc Creatif Solution
-              offers a collaborative and personalized approach to essay writing.
-              We tailor our assistance to your specific needs, fostering a
+              So, why join us? Beyond the time saved, AN Solution offers a
+              collaborative and personalized approach to essay writing. We
+              tailor our assistance to your specific needs, fostering a
               supportive environment that empowers you to excel. The wealth of
               experience and expertise within our team is your assurance of
               high-quality, impactful essays.
             </p>
             <p>
-              Choose Arc Creatif Solution for an essay writing journey that
-              transcends the ordinary. Let us be your partners in academic
-              success, guiding you through the intricacies of essay composition
-              with diligence, creativity, and a commitment to excellence.
+              Choose AN Solution for an essay writing journey that transcends
+              the ordinary. Let us be your partners in academic success, guiding
+              you through the intricacies of essay composition with diligence,
+              creativity, and a commitment to excellence.
             </p>
           </div>
 
@@ -144,7 +144,7 @@ const EssayWriting = () => {
       <div className={Style.essayWriting_container2}>
         <div className={Style.essayWriting_container_left_data}>
           <div className={Style.essayWriting_container_left_data_first}>
-            <h3>Types of Essay Writing Services by Arc Creatif Solution</h3>
+            <h3>Types of Essay Writing Services by AN Solution</h3>
             <p>Here are five common types of essay writing services:</p>
           </div>
         </div>

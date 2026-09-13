@@ -53,9 +53,9 @@ const CaseStudy = () => {
             <p>
               Embarking on case studies? Remember, they demand thorough research
               and often consume significant time. Simplify your workload by
-              entrusting your assignments to us at Arc Creatif Solution. Our
-              dedicated team ensures meticulous research, saving you time and
-              ensuring top-notch results.
+              entrusting your assignments to us at AN Solution. Our dedicated
+              team ensures meticulous research, saving you time and ensuring
+              top-notch results.
             </p>
             <p>
               Explore the efficiency of our services and make your academic
@@ -67,8 +67,8 @@ const CaseStudy = () => {
             <h5>Case Study Assignment Essay</h5>
             <p>
               Unlock the secrets to exceptional case studies with our experts at
-              Arc Creatif Solution. Follow our criteria for outstanding results
-              in your academic assignments.
+              AN Solution. Follow our criteria for outstanding results in your
+              academic assignments.
             </p>
 
             <p>

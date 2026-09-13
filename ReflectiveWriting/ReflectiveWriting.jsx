@@ -53,12 +53,11 @@ const ReflectiveWriting = () => {
             <p>
               Reflection is the birthplace of ideas, a journey that unfolds as
               you immerse yourself in literature, exploring contexts for
-              learning and development. At Arc Creatif Solution, we recognize
-              the significance of this process. Let your ideas flourish,
-              unburdened by the intricacies of writing. Join us to turn your
-              reflections into compelling narratives. Our expert team ensures
-              your thoughts take center stage, making the most of your literary
-              exploration.
+              learning and development. At AN Solution, we recognize the
+              significance of this process. Let your ideas flourish, unburdened
+              by the intricacies of writing. Join us to turn your reflections
+              into compelling narratives. Our expert team ensures your thoughts
+              take center stage, making the most of your literary exploration.
             </p>
           </div>
 
@@ -115,8 +114,8 @@ const ReflectiveWriting = () => {
             Unlock academic excellence with our High Distinction Reflective
             Writing Assignment Services. Our expert team ensures precision and
             depth in crafting reflections that stand out. Elevate your grades
-            and showcase insightful perspectives with our tailored support at
-            Arc Creatif Solution.
+            and showcase insightful perspectives with our tailored support at AN
+            Solution.
           </p>
         </div>
 

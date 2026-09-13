@@ -7,14 +7,14 @@ import Features from "../components/Features/Features";
 import AboutAssignment from "../components/AboutAssignment/AboutAssignment";
 import NumberShow from "../components/NumberShow/NumberShow";
 import Footer from "../components/Footer/Footer";
-import CaseStudy from "../../my-react-app/CaseStudy/CaseStudy";
+import CaseStudy from "../CaseStudy/CaseStudy";
 import EssayWriting from "../EssayWriting/EssayWriting";
 import ReflectiveWriting from "../ReflectiveWriting/ReflectiveWriting";
 import ResumeWriting from "../ResumeWriting/ResumeWriting";
 import ResearchWriting from "../ResearchWriting/ResearchWriting";
 import DissertationWriting from "../DissertationWriting/DissertationWriting";
 import HomeworkHelp from "../HomeworkHelp/HomeworkHelp";
-
+import STATA from "../STATA/STATA";
 function App() {
   return (
     <>
@@ -29,6 +29,7 @@ function App() {
         <Route path="/researchWriting" element={<ResearchWriting />} />
         <Route path="/dissertationWriting" element={<DissertationWriting />} />
         <Route path="/homeworkHelp" element={<HomeworkHelp />} />
+        <Route path="/STATA" element={<STATA />} />
       </Routes>
 
       <Footer />

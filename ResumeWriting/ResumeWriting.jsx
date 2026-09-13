@@ -53,49 +53,49 @@ const ResumeWriting = () => {
             <p>
               In the Indian employment landscape, securing a job is often
               considered a notable privilege, and individuals frequently turn to
-              distinguished resume writing services such as Arc Creatif Solution
-              to elevate their job prospects. Recognizing the intense
-              competition and the pivotal role that a well-crafted resume plays,
-              many job seekers rely on the professional touch provided by
-              services like Arc Creatif Solution.
+              distinguished resume writing services such as AN Solution to
+              elevate their job prospects. Recognizing the intense competition
+              and the pivotal role that a well-crafted resume plays, many job
+              seekers rely on the professional touch provided by services like
+              AN Solution.
             </p>
             <p>
               In this pursuit of employment, a meticulously crafted resume
               becomes a crucial asset. Job seekers understand that their initial
               impression on a potential employer is often shaped by their
-              resume. Therefore, the comprehensive offerings of Arc Creatif
-              Solution, from resume creation to LinkedIn profile optimization,
-              are increasingly sought after by those who recognize the
-              importance of presenting their skills and experiences in the best
-              light possible.
+              resume. Therefore, the comprehensive offerings of AN Solution,
+              from resume creation to LinkedIn profile optimization, are
+              increasingly sought after by those who recognize the importance of
+              presenting their skills and experiences in the best light
+              possible.
             </p>
             <p>
-              Arc Creatif Solution, as a leading player in the resume writing
-              services arena, caters to the diverse needs of job seekers in
-              India. Their expertise extends across various industries, ensuring
-              that resumes are tailored to align seamlessly with specific job
-              requirements. In a competitive job market, individuals find
-              significant value in the specialized knowledge and proficiency
-              that Arc Creatif Solution brings to the table.
+              AN Solution, as a leading player in the resume writing services
+              arena, caters to the diverse needs of job seekers in India. Their
+              expertise extends across various industries, ensuring that resumes
+              are tailored to align seamlessly with specific job requirements.
+              In a competitive job market, individuals find significant value in
+              the specialized knowledge and proficiency that AN Solution brings
+              to the table.
             </p>
             <p>
               Moreover, the trust placed in professional resume writing
-              services, including Arc Creatif Solution, underscores a broader
-              cultural recognition of the paramount importance of career
-              development in India. In a society that highly values education
-              and employment, individuals are keenly aware of the need to
-              leverage every advantage to ensure their professional journey is
-              well-managed and leads to fulfilling opportunities.
+              services, including AN Solution, underscores a broader cultural
+              recognition of the paramount importance of career development in
+              India. In a society that highly values education and employment,
+              individuals are keenly aware of the need to leverage every
+              advantage to ensure their professional journey is well-managed and
+              leads to fulfilling opportunities.
             </p>
             <p>
-              The utilization of services like Arc Creatif Solution has thus
-              become a strategic investment in one's career, providing a
-              distinctive edge in the competitive pursuit of coveted job
-              positions. It aligns with the broader narrative of individuals in
-              India proactively taking charge of their career trajectories,
-              acknowledging that a polished and impactful resume is not just a
-              formality but a strategic step toward securing meaningful and
-              rewarding employment opportunities.
+              The utilization of services like AN Solution has thus become a
+              strategic investment in one's career, providing a distinctive edge
+              in the competitive pursuit of coveted job positions. It aligns
+              with the broader narrative of individuals in India proactively
+              taking charge of their career trajectories, acknowledging that a
+              polished and impactful resume is not just a formality but a
+              strategic step toward securing meaningful and rewarding employment
+              opportunities.
             </p>
           </div>
 

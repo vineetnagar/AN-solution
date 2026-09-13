@@ -53,8 +53,8 @@ const ResearchWriting = () => {
             <p>
               Embarking on a research paper can be a time-intensive endeavor,
               diverting your focus from other crucial aspects of your academic
-              journey. At Arc Creatif Solution, we comprehend the challenges you
-              face. Our Research Paper Writing Services provide a comprehensive
+              journey. At AN Solution, we comprehend the challenges you face.
+              Our Research Paper Writing Services provide a comprehensive
               solution to save you valuable time and energy. Our experienced
               team is dedicated to navigating the complexities of your research,
               ensuring meticulous attention to detail and adherence to academic

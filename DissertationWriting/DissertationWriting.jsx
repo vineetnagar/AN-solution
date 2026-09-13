@@ -77,23 +77,22 @@ const DissertationWriting = () => {
           </div>
 
           <div className={Style.dissertationWriting_container_left_data_second}>
-            <h5>Why Seek Help Of Arc Creatif Solution?</h5>
+            <h5>Why Seek Help Of AN Solution?</h5>
             <p>
-              Seeking help for your dissertation from Arc Creatif Solution (ACS)
-              is a strategic decision that brings a host of benefits to your
-              academic journey. Crafting a dissertation is a complex and
-              time-consuming process, and ACS is here to streamline that journey
-              for you.
+              Seeking help for your dissertation from AN Solution (ANS) is a
+              strategic decision that brings a host of benefits to your academic
+              journey. Crafting a dissertation is a complex and time-consuming
+              process, and ANS is here to streamline that journey for you.
             </p>
             <p>
-              First and foremost, our team of experienced professionals at ACS
+              First and foremost, our team of experienced professionals at ANS
               understands the intricacies of dissertation writing. We bring a
               wealth of knowledge across various academic disciplines, ensuring
               that your dissertation not only meets but exceeds the rigorous
               standards expected in higher education.
             </p>
             <p>
-              Time is of the essence in academia, and by choosing ACS, you free
+              Time is of the essence in academia, and by choosing ANS, you free
               up a substantial amount of your valuable time. The extensive
               research, drafting, and refining process that a dissertation
               demands can be overwhelming, and our services are designed to
