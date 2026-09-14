@@ -17,6 +17,11 @@ import HomeworkHelp from "../HomeworkHelp/HomeworkHelp";
 import STATA from "../STATA/STATA";
 import Nursing from "../Nursing/Nursing";
 import Management from "../Management/Management";
+import Law from "../Law/Law";
+import Economics from "../Economics/Economics";
+import STATICS from "../STATICS/STATICS";
+import Finance from "../Finance/Finance";
+import Marketing from "../Marketing/Marketing";
 function App() {
   return (
     <>
@@ -34,6 +39,11 @@ function App() {
         <Route path="/STATA" element={<STATA />} />
         <Route path="/nursing" element={<Nursing />} />
         <Route path="/management" element={<Management />} />
+        <Route path="/law" element={<Law />} />
+        <Route path="/economics" element={<Economics />} />
+        <Route path="/statics" element={<STATICS />} />
+        <Route path="/finance" element={<Finance />} />
+        <Route path="/marketing" element={<Marketing />} />
       </Routes>
 
       <Footer />
