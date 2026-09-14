@@ -42,39 +42,50 @@ const Navbar = () => {
   const Sample = [
     {
       name: "Nursing",
+      link: "nursing",
     },
     {
       name: "Management",
+      link: "management",
     },
     {
       name: "Law",
+      link: "law",
     },
     {
       name: "Economics",
+      link: "economics",
     },
     {
       name: "Statics",
+      link: "statics",
     },
     {
       name: "Finance",
+      link: "finance",
     },
     {
       name: "Marketing",
+      link: "marketing",
     },
   ];
 
   const Countries = [
     {
       name: "UK",
+      link: "uk",
     },
     {
       name: "Australia",
+      link: "australia",
     },
     {
       name: "Germany",
+      link: "germany",
     },
     {
       name: "UAE",
+      link: "uae",
     },
   ];
   const [menu, setMenu] = useState(false);

@@ -15,6 +15,8 @@ import ResearchWriting from "../ResearchWriting/ResearchWriting";
 import DissertationWriting from "../DissertationWriting/DissertationWriting";
 import HomeworkHelp from "../HomeworkHelp/HomeworkHelp";
 import STATA from "../STATA/STATA";
+import Nursing from "../Nursing/Nursing";
+import Management from "../Management/Management";
 function App() {
   return (
     <>
@@ -30,6 +32,8 @@ function App() {
         <Route path="/dissertationWriting" element={<DissertationWriting />} />
         <Route path="/homeworkHelp" element={<HomeworkHelp />} />
         <Route path="/STATA" element={<STATA />} />
+        <Route path="/nursing" element={<Nursing />} />
+        <Route path="/management" element={<Management />} />
       </Routes>
 
       <Footer />
