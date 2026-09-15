@@ -1,5 +1,5 @@
-import React, { useState } from "react";
-import { Link } from "react-router-dom";
+import React, { useState, useEffect, useRef } from "react";
+import { Link, useLocation } from "react-router-dom";
 import Style from "./Navbar.module.css";
 import { IoIosArrowDown, IoIosArrowUp } from "react-icons/io";
 import { TiThMenuOutline } from "react-icons/ti";
@@ -9,96 +9,66 @@ import webLogo from "../../img/web-logo.svg";
 const Navbar = () => {
   const Services = [
     { name: "Case Study", link: "/caseStudy" },
-    {
-      name: "Essay Writing",
-      link: "essayWriting",
-    },
-    {
-      name: "Reflective Writing",
-      link: "reflectiveWriting",
-    },
-    {
-      name: "Resume Writing",
-      link: "resumeWriting",
-    },
-    {
-      name: "Research Writing",
-      link: "researchWriting",
-    },
-    {
-      name: "Dissertation Writing",
-      link: "dissertationWriting",
-    },
-    {
-      name: "Homework Help",
-      link: "homeworkHelp",
-    },
-    {
-      name: "STATA",
-      link: "stata",
-    },
+    { name: "Essay Writing", link: "essayWriting" },
+    { name: "Reflective Writing", link: "reflectiveWriting" },
+    { name: "Resume Writing", link: "resumeWriting" },
+    { name: "Research Writing", link: "researchWriting" },
+    { name: "Dissertation Writing", link: "dissertationWriting" },
+    { name: "Homework Help", link: "homeworkHelp" },
+    { name: "STATA", link: "stata" },
   ];
 
   const Sample = [
-    {
-      name: "Nursing",
-      link: "nursing",
-    },
-    {
-      name: "Management",
-      link: "management",
-    },
-    {
-      name: "Law",
-      link: "law",
-    },
-    {
-      name: "Economics",
-      link: "economics",
-    },
-    {
-      name: "Statics",
-      link: "statics",
-    },
-    {
-      name: "Finance",
-      link: "finance",
-    },
-    {
-      name: "Marketing",
-      link: "marketing",
-    },
+    { name: "Nursing", link: "nursing" },
+    { name: "Management", link: "management" },
+    { name: "Law", link: "law" },
+    { name: "Economics", link: "economics" },
+    { name: "Statics", link: "statics" },
+    { name: "Finance", link: "finance" },
+    { name: "Marketing", link: "marketing" },
   ];
 
   const Countries = [
-    {
-      name: "UK",
-      link: "uk",
-    },
-    {
-      name: "Australia",
-      link: "australia",
-    },
-    {
-      name: "Germany",
-      link: "germany",
-    },
-    {
-      name: "UAE",
-      link: "uae",
-    },
+    { name: "UK", link: "uk" },
+    { name: "Australia", link: "australia" },
+    { name: "Germany", link: "germany" },
+    { name: "UAE", link: "uae" },
   ];
+
+  const location = useLocation();
+  const navRef = useRef(null);
+
   const [menu, setMenu] = useState(false);
   const [services, setServices] = useState(false);
   const [sample, setSample] = useState(false);
   const [countries, setCountries] = useState(false);
 
+  const closeAll = () => {
+    setServices(false);
+    setSample(false);
+    setCountries(false);
+  };
+
+  useEffect(() => {
+    closeAll();
+    setMenu(false);
+  }, [location.pathname]);
+
+  useEffect(() => {
+    const handleClickOutside = (e) => {
+      if (navRef.current && !navRef.current.contains(e.target)) {
+        closeAll();
+      }
+    };
+
+    document.addEventListener("mousedown", handleClickOutside);
+    return () => {
+      document.removeEventListener("mousedown", handleClickOutside);
+    };
+  }, []);
+
   const openMenu = () => {
-    if (menu) {
-      setMenu(false);
-    } else {
-      setMenu(true);
-    }
+    setMenu((prev) => !prev);
   };
 
   const openServices = () => {
@@ -130,13 +100,14 @@ const Navbar = () => {
       setSample(false);
     }
   };
+
   return (
     <div className={Style.Navbar}>
       <div className={Style.Navbar_container}>
         <div className={Style.Navbar_container_logo}>
           <img src={webLogo} alt="web-logo" height={80} width={200} />
         </div>
-        <div className={Style.Navbar_container_links}>
+        <div className={Style.Navbar_container_links} ref={navRef}>
           <div className={Style.Navbar_container_links_items}>
             <Link to="/" className={Style.Navbar_container_links_items_items}>
               Home
@@ -153,18 +124,15 @@ const Navbar = () => {
             <p onClick={() => openCountries()}>
               Countries {countries ? <IoIosArrowDown /> : <IoIosArrowUp />}
             </p>
-            <Link to="/" className={Style.Navbar_container_links_items_items}>
-              Contact Us
-            </Link>
           </div>
 
           {services && (
             <div className={Style.services}>
               {Services.map((el, i) => (
-                <div className={Style.services_container}>
+                <div className={Style.services_container} key={i}>
                   <ul>
                     <li key={i + 1}>
-                      <Link to={el.link}>
+                      <Link to={el.link} onClick={closeAll}>
                         <MdDoubleArrow />
                         {el.name}
                       </Link>
@@ -178,10 +146,10 @@ const Navbar = () => {
           {sample && (
             <div className={Style.sample}>
               {Sample.map((el, i) => (
-                <div className={Style.sample_container}>
+                <div className={Style.sample_container} key={i}>
                   <ul>
                     <li key={i + 1}>
-                      <Link to={el.link}>
+                      <Link to={el.link} onClick={closeAll}>
                         <MdDoubleArrow />
                         {el.name}
                       </Link>
@@ -195,10 +163,10 @@ const Navbar = () => {
           {countries && (
             <div className={Style.countries}>
               {Countries.map((el, i) => (
-                <div className={Style.countries_container}>
+                <div className={Style.countries_container} key={i}>
                   <ul>
                     <li key={i + 1}>
-                      <Link to={el.link}>
+                      <Link to={el.link} onClick={closeAll}>
                         <MdDoubleArrow />
                         {el.name}
                       </Link>
