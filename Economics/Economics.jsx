@@ -46,15 +46,15 @@ const Economics = () => {
             <h3>Economics Assignment</h3>
             <p>
               Students no longer need to worry about assignment grades, because
-              we at Arc Creatif Solution understand the challenges you face in
-              managing your academic workload. We specialize in providing
-              top-notch economics assignment services tailored to meet your
-              unique needs. Our team of experienced professionals is dedicated
-              to ensuring that you not only receive high-quality assignments but
-              also gain a deeper understanding of economic concepts.
+              we at AN Solution understand the challenges you face in managing
+              your academic workload. We specialize in providing top-notch
+              economics assignment services tailored to meet your unique needs.
+              Our team of experienced professionals is dedicated to ensuring
+              that you not only receive high-quality assignments but also gain a
+              deeper understanding of economic concepts.
             </p>
             <p>
-              At Arc Creatif Solution, we recognize the value of your time. Our
+              At AN Solution, we recognize the value of your time. Our
               streamlined process ensures that you can submit your assignment
               requirements effortlessly. Once you entrust us with your economics
               assignment, our experts take the reins, conducting thorough
@@ -72,22 +72,22 @@ const Economics = () => {
               material covered in the assignment.
             </p>
             <p>
-              With Arc Creatif Solution, your economics assignments become an
-              opportunity for learning and growth rather than a source of
-              stress. Visit our website today and experience how our services
-              can save you time, elevate your academic performance, and provide
-              a stress-free environment for your studies. Let us be your partner
-              in achieving success in your economics coursework.
+              With AN Solution, your economics assignments become an opportunity
+              for learning and growth rather than a source of stress. Visit our
+              website today and experience how our services can save you time,
+              elevate your academic performance, and provide a stress-free
+              environment for your studies. Let us be your partner in achieving
+              success in your economics coursework.
             </p>
           </div>
 
           <div className={Style.economics_container_left_data_second}>
             <h5>High-Distinction Economics Assignment</h5>
             <p>
-              At Arc Creatif Solution, we prioritize student satisfaction by
-              delivering high-distinction economics assignments. Our expert
-              writers ensure excellence, allowing you to focus on mastering the
-              subject without the stress of assignment deadlines.
+              At AN Solution, we prioritize student satisfaction by delivering
+              high-distinction economics assignments. Our expert writers ensure
+              excellence, allowing you to focus on mastering the subject without
+              the stress of assignment deadlines.
             </p>
             <p>
               <MdOutlineVerifiedUser

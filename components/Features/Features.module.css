@@ -24,11 +24,6 @@
   color: #828282;
 }
 
-.Features_button {
-  text-align: center;
-  margin-top: 1rem;
-}
-
 @media (min-width: 768px) and (max-width: 991px) {
   .Features_blocks {
     display: flex;

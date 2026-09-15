@@ -50,8 +50,8 @@ const STATICS = () => {
             <h3>Statistics Assignment</h3>
             <p>
               Embarking on a statistics assignment can be a formidable journey,
-              laden with intricate concepts and intricate analyses. At Arc
-              Creatif Solution, we understand the complexities students face in
+              laden with intricate concepts and intricate analyses. At AN
+              Solution, we understand the complexities students face in
               unraveling the intricacies of statistical data. Whether you're
               grappling with probability distributions, regression analysis, or
               hypothesis testing, our seasoned team of statisticians is here to
@@ -72,38 +72,34 @@ const STATICS = () => {
               />
             </div>
             <p>
-              When you choose Arc Creatif Solution, you're choosing a partner
-              dedicated to simplifying the statistical landscape. We offer a
-              streamlined solution to save you time and energy, providing a
-              user-friendly platform for effortless assignment submission. Let
-              Arc Creatif Solution be your trusted ally, transforming the
-              challenges of statistical assignments into opportunities for
-              academic growth. Visit our website today and experience how our
-              commitment to excellence can elevate your journey through the
-              intricate world of statistics.
+              When you choose AN Solution, you're choosing a partner dedicated
+              to simplifying the statistical landscape. We offer a streamlined
+              solution to save you time and energy, providing a user-friendly
+              platform for effortless assignment submission. Let AN Solution be
+              your trusted ally, transforming the challenges of statistical
+              assignments into opportunities for academic growth. Visit our
+              website today and experience how our commitment to excellence can
+              elevate your journey through the intricate world of statistics.
             </p>
           </div>
 
           <div className={Style.statics_container_left_data_second}>
-            <h5>
-              Why Seek Help for Statistics Assignment With Arc Creatif Solution?
-            </h5>
+            <h5>Why Seek Help for Statistics Assignment With AN Solution?</h5>
             <p>
-              Seeking help for your statistics assignment with Arc Creatif
-              Solution is a prudent decision rooted in expertise and efficiency.
-              Statistics can be a complex field, and our team of seasoned
-              statisticians is dedicated to simplifying its intricacies for you.
-              By choosing our services, you not only ensure the timely and
-              accurate completion of your assignment but also gain valuable
-              insights that enhance your understanding of statistical
-              principles.
+              Seeking help for your statistics assignment with AN Solution is a
+              prudent decision rooted in expertise and efficiency. Statistics
+              can be a complex field, and our team of seasoned statisticians is
+              dedicated to simplifying its intricacies for you. By choosing our
+              services, you not only ensure the timely and accurate completion
+              of your assignment but also gain valuable insights that enhance
+              your understanding of statistical principles.
             </p>
             <p>
-              Arc Creatif Solution values your time, offering a user-friendly
-              platform for seamless assignment submission. Our commitment goes
-              beyond task completion; we aim to empower you with knowledge,
+              AN Solution values your time, offering a user-friendly platform
+              for seamless assignment submission. Our commitment goes beyond
+              task completion; we aim to empower you with knowledge,
               transforming your statistics assignment into an opportunity for
-              comprehensive learning. Trust Arc Creatif Solution to navigate the
+              comprehensive learning. Trust AN Solution to navigate the
               complexities of statistics, providing expert assistance that
               aligns with your academic success. Visit our website today and
               experience the difference our dedicated team can make in your

@@ -78,12 +78,6 @@ const Features = () => {
           </div>
         </div>
       </div>
-
-      <div className={Style.Features_button}>
-        <button type="button" class="btn btn-secondary">
-          Order Now
-        </button>
-      </div>
     </div>
   );
 };

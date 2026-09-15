@@ -49,56 +49,55 @@ const Management = () => {
             <h3>Management Assignment</h3>
             <p>
               Embarking on the journey of management studies often means
-              grappling with a multitude of academic responsibilities. At Arc
-              Creatif Solution, we acknowledge the challenges that students face
-              as they balance coursework with other commitments. Our mission is
-              to provide a practical solution that not only saves time but also
+              grappling with a multitude of academic responsibilities. At AN
+              Solution, we acknowledge the challenges that students face as they
+              balance coursework with other commitments. Our mission is to
+              provide a practical solution that not only saves time but also
               ensures a more relaxed and focused approach to studying.
             </p>
             <p>
               In the dynamic field of management, where theoretical knowledge
               meets real-world application, we recognize that assignments can be
-              time-consuming. That's why Arc Creatif Solution is here to offer
+              time-consuming. That's why AN Solution is here to offer
               specialized assistance tailored to your management coursework. Our
               team comprises seasoned professionals who understand the
               intricacies of management principles and are dedicated to
               delivering high-quality support.
             </p>
             <p>
-              Choosing Arc Creatif Solution means choosing a streamlined
-              academic experience. By entrusting us with your management
-              assignments, you open up a space in your schedule to dive deeper
-              into the core concepts of your studies. Our writers are adept at
-              crafting insightful analyses, case studies, and reports, ensuring
-              that your submissions reflect a mastery of management principles.
+              Choosing AN Solution means choosing a streamlined academic
+              experience. By entrusting us with your management assignments, you
+              open up a space in your schedule to dive deeper into the core
+              concepts of your studies. Our writers are adept at crafting
+              insightful analyses, case studies, and reports, ensuring that your
+              submissions reflect a mastery of management principles.
             </p>
             <p>
               We understand that your time is valuable, and studying should not
-              be hindered by the stress of impending deadlines. At Arc Creatif
-              Solution, our commitment to time efficiency goes hand in hand with
-              our dedication to quality. Every assignment we deliver undergoes a
+              be hindered by the stress of impending deadlines. At AN Solution,
+              our commitment to time efficiency goes hand in hand with our
+              dedication to quality. Every assignment we deliver undergoes a
               meticulous process to meet academic standards and exceed
               expectations.
             </p>
             <p>
               As you navigate the intricate landscape of management studies, let
-              Arc Creatif Solution be your academic partner. Our platform is
-              designed to empower you, allowing you to study with confidence,
-              knowing that your assignments are in capable hands. Visit our
-              website today and experience a transformation in your academic
-              journey – one where you can focus on learning and leave the stress
-              of assignments behind. Your success is at the forefront of our
-              priorities.
+              AN Solution be your academic partner. Our platform is designed to
+              empower you, allowing you to study with confidence, knowing that
+              your assignments are in capable hands. Visit our website today and
+              experience a transformation in your academic journey – one where
+              you can focus on learning and leave the stress of assignments
+              behind. Your success is at the forefront of our priorities.
             </p>
           </div>
 
           <div className={Style.management_container_left_data_second}>
             <h5>Management Assignment</h5>
             <p>
-              At Arc Creatif Solution, we're dedicated to providing unparalleled
-              academic support. Our distinctive approach to answering questions
-              reflects our unwavering commitment to excellence, ensuring that
-              each response goes above and beyond. Choose us for exceptional and
+              At AN Solution, we're dedicated to providing unparalleled academic
+              support. Our distinctive approach to answering questions reflects
+              our unwavering commitment to excellence, ensuring that each
+              response goes above and beyond. Choose us for exceptional and
               tailored assistance in your academic journey.
             </p>
 

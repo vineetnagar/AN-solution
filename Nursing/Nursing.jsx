@@ -48,13 +48,12 @@ const Nursing = () => {
           <div className={Style.nursing_container_left_data_first}>
             <h3>Nursing Assignment</h3>
             <p>
-              Recognizing the demanding nature of your nursing studies, we at
-              Arc Creatif Solution are here to alleviate the stress associated
-              with assignments and offer a pathway for you to study with ease.
-              Our dedicated team of experienced nursing professionals is ready
-              to handle your assignments, ensuring not only timely completion
-              but also a standard of quality that aligns with your academic
-              goals.
+              Recognizing the demanding nature of your nursing studies, we at AN
+              Solution are here to alleviate the stress associated with
+              assignments and offer a pathway for you to study with ease. Our
+              dedicated team of experienced nursing professionals is ready to
+              handle your assignments, ensuring not only timely completion but
+              also a standard of quality that aligns with your academic goals.
             </p>
             <p>
               By entrusting your assignments to us, you reclaim valuable time
@@ -71,10 +70,10 @@ const Nursing = () => {
               it's about providing you with a supportive academic environment.
               We aim to save your time and minimize stress, allowing you to
               fully immerse yourself in the learning experience. As you partner
-              with Arc Creatif Solution, envision a study routine that is free
-              from assignment-related worries, empowering you to focus on what
-              truly matters—your education and personal growth. Your academic
-              journey should be a fulfilling one, and we are here to make that a
+              with AN Solution, envision a study routine that is free from
+              assignment-related worries, empowering you to focus on what truly
+              matters—your education and personal growth. Your academic journey
+              should be a fulfilling one, and we are here to make that a
               reality.
             </p>
             <p>
@@ -96,22 +95,22 @@ const Nursing = () => {
               provide the necessary support for your holistic growth.
             </p>
             <p>
-              In conclusion, Arc Creatif Solution is not just a solution to
-              assignment challenges; it is an investment in your academic
-              well-being. We invite you to experience the transformative power
-              of focused, stress-free studying. Your time is precious, and we
-              are here to ensure that every moment you spend in pursuit of
-              knowledge is maximally rewarding. Join us in creating a seamless
-              and enriching academic journey that empowers you to excel in your
-              nursing studies with confidence and ease.
+              In conclusion, AN Solution is not just a solution to assignment
+              challenges; it is an investment in your academic well-being. We
+              invite you to experience the transformative power of focused,
+              stress-free studying. Your time is precious, and we are here to
+              ensure that every moment you spend in pursuit of knowledge is
+              maximally rewarding. Join us in creating a seamless and enriching
+              academic journey that empowers you to excel in your nursing
+              studies with confidence and ease.
             </p>
           </div>
 
           <div className={Style.nursing_container_left_data_second}>
             <h5>Nursing Assignment Writing Service</h5>
             <p>
-              Contact Arc Creatif Solution for your next nursing assignment. We
-              assure you:
+              Contact AN Solution for your next nursing assignment. We assure
+              you:
             </p>
 
             <p>

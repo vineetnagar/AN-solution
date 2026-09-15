@@ -1,0 +1,139 @@
+.uae {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #fff;
+}
+
+.uae_hero {
+  background-color: #00b0ff;
+  width: 100%;
+  height: max-content;
+  margin-top: -4rem;
+  display: flex;
+}
+
+.uae_hero_container {
+  display: flex;
+  justify-content: space-evenly;
+  margin-left: 10rem;
+  flex-direction: column;
+  margin-top: 3rem;
+}
+
+.uae_container {
+  padding: 4rem;
+  display: flex;
+  gap: 2rem;
+  background-color: #fff;
+}
+
+.uae_hero_container h2 {
+  font-weight: 700;
+  text-decoration: underline;
+}
+.uae_hero_container h1 {
+  font-weight: 900;
+  color: #fff;
+  font-size: 2.7rem;
+}
+
+.uae_hero_container p {
+  color: #fff;
+  font-size: 0.9rem;
+  font-weight: 500;
+}
+
+.uae_container_left_data_second h5 {
+  font-weight: 700;
+}
+
+.uae_container {
+  display: flex;
+}
+.uae_container_left_img {
+  background-color: #ffd8d8;
+}
+
+.uae_container_right_box_data {
+  display: flex;
+  flex-direction: column;
+}
+
+.uae_container_right_box_data a {
+  padding: 10px 70px;
+  border: 1px solid #ededed;
+  font-size: 1.1 rem;
+  font-weight: 700;
+  background-color: white;
+  color: black;
+  text-decoration: none;
+}
+
+.uae_container_right_box_data a:nth-child(4) {
+  color: #00a2ff;
+  font-size: 1.2rem;
+}
+
+.uae_container_left_data p {
+  text-align: justify;
+  font-size: 0.9rem;
+  color: #828282;
+  font-weight: 400;
+}
+.uae_container_right_data {
+  width: 50rem;
+  height: max-content;
+  background-color: #27282c;
+  color: #fff;
+  padding: 2rem;
+  text-align: center;
+  line-height: 0.6rem;
+}
+
+.uae_container_right_data_box_icon {
+  font-size: 3rem;
+  text-align: center;
+  margin-bottom: 1.5rem;
+  color: #0986ce;
+}
+
+.uae {
+  margin-top: 8rem;
+}
+
+.uae_headings {
+  text-align: center;
+}
+
+.uae_blocks {
+  display: flex;
+  gap: 1.5rem;
+  justify-content: center;
+}
+
+.uae_blocks h5 {
+  text-align: center;
+  font-weight: 700;
+}
+
+.uae_blocks_item_info {
+  width: 15rem;
+  text-align: justify;
+  font-size: 0.85rem;
+  color: #828282;
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .uae_blocks {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+  .uae_blocks {
+    display: flex;
+    flex-direction: column;
+  }
+}

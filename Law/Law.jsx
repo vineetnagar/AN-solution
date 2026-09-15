@@ -57,8 +57,8 @@ const Law = () => {
               synthesize information effectively. Analytics, the third key
               element, requires the adept use of critical thinking and
               problem-solving skills to navigate the intricacies of legal cases.
-              At Arc Creatif Solution, we understand the importance of fostering
-              these qualities in aspiring legal professionals.
+              At AN Solution, we understand the importance of fostering these
+              qualities in aspiring legal professionals.
             </p>
             <p>
               Our commitment is not only to provide you with expertly crafted
@@ -77,30 +77,30 @@ const Law = () => {
             </p>
             <p>
               We recognize that as law students, your time is a valuable asset.
-              That's why, at Arc Creatif Solution, we aim to alleviate the
-              stress of assignment deadlines, allowing you to dedicate more time
-              to your studies, research, and practical experiences. Our
-              efficient and reliable service is designed to save you time while
-              ensuring that you receive top-notch, customized assignments that
-              align with your academic goals.
+              That's why, at AN Solution, we aim to alleviate the stress of
+              assignment deadlines, allowing you to dedicate more time to your
+              studies, research, and practical experiences. Our efficient and
+              reliable service is designed to save you time while ensuring that
+              you receive top-notch, customized assignments that align with your
+              academic goals.
             </p>
             <p>
               Navigating the complex world of law requires an investment of time
               and effort, and we are here to help you make the most of your
-              educational journey. By choosing Arc Creatif Solution, you not
-              only gain professionally crafted assignments but also the time and
-              peace of mind to delve deeper into your studies, participate in
-              legal internships, and engage in extracurricular activities that
+              educational journey. By choosing AN Solution, you not only gain
+              professionally crafted assignments but also the time and peace of
+              mind to delve deeper into your studies, participate in legal
+              internships, and engage in extracurricular activities that
               contribute to your holistic development.
             </p>
             <p>
-              In conclusion, we believe that by partnering with Arc Creatif
-              Solution, you are not just outsourcing your assignments; you are
-              investing in your own growth as a future legal professional. Let
-              us handle the intricacies of legal assignments, while you focus on
-              honing the Attitude, Aptitude, and Analytics that will set you on
-              the path to becoming an expert lawyer. Your success is our
-              priority, and we are here to support you every step of the way.
+              In conclusion, we believe that by partnering with AN Solution, you
+              are not just outsourcing your assignments; you are investing in
+              your own growth as a future legal professional. Let us handle the
+              intricacies of legal assignments, while you focus on honing the
+              Attitude, Aptitude, and Analytics that will set you on the path to
+              becoming an expert lawyer. Your success is our priority, and we
+              are here to support you every step of the way.
             </p>
           </div>
 

@@ -1,0 +1,140 @@
+.uk {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #fff;
+}
+
+.uk_hero {
+  background-color: #00b0ff;
+  width: 100%;
+  height: max-content;
+  margin-top: -4rem;
+  display: flex;
+}
+
+.uk_hero_container {
+  display: flex;
+  justify-content: space-evenly;
+  margin-left: 10rem;
+  flex-direction: column;
+  margin-top: 3rem;
+}
+
+.uk_container {
+  width: 90%;
+  padding: 4rem 2rem;
+  display: flex;
+  gap: 2rem;
+  background-color: #fff;
+}
+
+.uk_hero_container h2 {
+  font-weight: 700;
+  text-decoration: underline;
+}
+.uk_hero_container h1 {
+  font-weight: 900;
+  color: #fff;
+  font-size: 2.7rem;
+}
+
+.uk_hero_container p {
+  color: #fff;
+  font-size: 0.9rem;
+  font-weight: 500;
+}
+
+.uk_container_left_data_second h5 {
+  font-weight: 700;
+}
+
+.uk_container {
+  display: flex;
+}
+.uk_container_left_img {
+  background-color: #ffd8d8;
+}
+
+.uk_container_right_box_data {
+  display: flex;
+  flex-direction: column;
+}
+
+.uk_container_right_box_data a {
+  padding: 10px 70px;
+  border: 1px solid #ededed;
+  font-size: 1.1 rem;
+  font-weight: 700;
+  background-color: white;
+  color: black;
+  text-decoration: none;
+}
+
+.uk_container_right_box_data a:nth-child(1) {
+  color: #00a2ff;
+  font-size: 1.2rem;
+}
+
+.uk_container_left_data p {
+  text-align: justify;
+  font-size: 0.9rem;
+  color: #828282;
+  font-weight: 400;
+}
+.uk_container_right_data {
+  width: 50rem;
+  height: max-content;
+  background-color: #27282c;
+  color: #fff;
+  padding: 2rem;
+  text-align: center;
+  line-height: 0.6rem;
+}
+
+.uk_container_right_data_box_icon {
+  font-size: 3rem;
+  text-align: center;
+  margin-bottom: 1.5rem;
+  color: #0986ce;
+}
+
+.uk {
+  margin-top: 8rem;
+}
+
+.uk_headings {
+  text-align: center;
+}
+
+.uk_blocks {
+  display: flex;
+  gap: 1.5rem;
+  justify-content: center;
+}
+
+.uk_blocks h5 {
+  text-align: center;
+  font-weight: 700;
+}
+
+.uk_blocks_item_info {
+  width: 15rem;
+  text-align: justify;
+  font-size: 0.85rem;
+  color: #828282;
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .uk_blocks {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+  .uk_blocks {
+    display: flex;
+    flex-direction: column;
+  }
+}

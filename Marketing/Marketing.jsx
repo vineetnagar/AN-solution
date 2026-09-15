@@ -50,9 +50,9 @@ const Marketing = () => {
             <p>
               In the dynamic world of marketing, assignments play a pivotal role
               in honing practical skills and applying theoretical knowledge. At
-              Arc Creatif Solution, we understand the challenges students face
-              when tackling marketing assignments, and we are here to provide
-              expert assistance tailored to your academic needs.
+              AN Solution, we understand the challenges students face when
+              tackling marketing assignments, and we are here to provide expert
+              assistance tailored to your academic needs.
             </p>
             <p>
               Our team comprises experienced marketing professionals and
@@ -72,12 +72,12 @@ const Marketing = () => {
               expected in today's competitive business environment.
             </p>
             <p>
-              Empower yourself with the expertise of Arc Creatif Solution. Our
-              commitment is to provide you with top-quality, well-researched
-              marketing assignments, allowing you to focus on mastering the
-              intricacies of marketing without the stress of looming deadlines.
-              Visit our website now to discover a reliable and efficient partner
-              for conquering your marketing assignments with confidence and
+              Empower yourself with the expertise of AN Solution. Our commitment
+              is to provide you with top-quality, well-researched marketing
+              assignments, allowing you to focus on mastering the intricacies of
+              marketing without the stress of looming deadlines. Visit our
+              website now to discover a reliable and efficient partner for
+              conquering your marketing assignments with confidence and
               excellence.
             </p>
           </div>
