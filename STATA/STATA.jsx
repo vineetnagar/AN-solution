@@ -32,16 +32,14 @@ const STATA = () => {
         </div>
         <div className={Style.STATA_container_right_box}>
           <div className={Style.STATA_container_right_box_data}>
-            <Link>Case Study Help</Link>
-            <Link to="essayWriting" element={<EssayWriting />}>
-              Essay Writing
-            </Link>
-            <Link>Refective Writing</Link>
-            <Link>Resume Writing</Link>
-            <Link>Research Writing</Link>
-            <Link>Dissertation Writing</Link>
-            <Link>Homework Help</Link>
-            <Link>STATA</Link>
+            <Link to="/caseStudy">Case Study Help</Link>
+            <Link to="/essayWriting">Essay Writing</Link>
+            <Link to="/reflectiveWriting">Reflective Writing</Link>
+            <Link to="/resumeWriting">Resume Writing</Link>
+            <Link to="/researchWriting">Research Writing</Link>
+            <Link to="/dissertationWriting">Dissertation Writing</Link>
+            <Link to="/homeworkHelp">Homework Help</Link>
+            <Link to="/STATA">STATA</Link>
           </div>
         </div>
       </div>

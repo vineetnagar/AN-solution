@@ -25,6 +25,7 @@ import Marketing from "../Marketing/Marketing";
 import UK from "../UK/UK";
 import Australia from "../Australia/Australia";
 import UAE from "../UAE/UAE";
+import Germany from "../Germany/Germany";
 function App() {
   return (
     <>
@@ -49,7 +50,7 @@ function App() {
         <Route path="/marketing" element={<Marketing />} />
         <Route path="/uk" element={<UK />} />
         <Route path="/australia" element={<Australia />} />
-        <Route path="/germany" element={<Marketing />} />
+        <Route path="/germany" element={<Germany />} />
         <Route path="/uae" element={<UAE />} />
       </Routes>
 

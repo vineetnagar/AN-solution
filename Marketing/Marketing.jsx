@@ -32,13 +32,13 @@ const Marketing = () => {
         </div>
         <div className={Style.marketing_container_right_box}>
           <div className={Style.marketing_container_right_box_data}>
-            <Link>Nursing</Link>
-            <Link>marketing</Link>
-            <Link>Law</Link>
-            <Link>Economics</Link>
-            <Link>Statics</Link>
-            <Link>Finance</Link>
-            <Link>Marketing</Link>
+            <Link to="/nursing">Nursing</Link>
+            <Link to="/management">Management</Link>
+            <Link to="/law">Law</Link>
+            <Link to="/economics">Economics</Link>
+            <Link to="/statics">Statics</Link>
+            <Link to="/finance">Finance</Link>
+            <Link to="/marketing">Marketing</Link>
           </div>
         </div>
       </div>

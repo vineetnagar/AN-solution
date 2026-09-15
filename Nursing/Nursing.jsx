@@ -1,6 +1,6 @@
 import React from "react";
 import Style from "./Nursing.module.css";
-import { Link } from "react-router-dom";
+import { Link, Outlet } from "react-router-dom";
 import caseStudyHeroImg from "../img/caseStudyHeroImg.png";
 import caseStudyImg from "../img/caseStudyImg.png";
 import webLogo from "../img/web-logo.svg";
@@ -32,13 +32,13 @@ const Nursing = () => {
         </div>
         <div className={Style.nursing_container_right_box}>
           <div className={Style.nursing_container_right_box_data}>
-            <Link>Nursing</Link>
-            <Link>Management</Link>
-            <Link>Law</Link>
-            <Link>Economics</Link>
-            <Link>Statics</Link>
-            <Link>Finance</Link>
-            <Link>Marketing</Link>
+            <Link to="/nursing">Nursing</Link>
+            <Link to="/management">Management</Link>
+            <Link to="/law">Law</Link>
+            <Link to="/economics">Economics</Link>
+            <Link to="/statics">Statics</Link>
+            <Link to="/finance">Finance</Link>
+            <Link to="/marketing">Marketing</Link>
           </div>
         </div>
       </div>

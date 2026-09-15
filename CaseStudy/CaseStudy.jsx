@@ -1,10 +1,16 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import { Link, Outlet } from "react-router-dom";
 import Style from "./CaseStudy.module.css";
 import caseStudyHeroImg from "../img/caseStudyHeroImg.png";
 import caseStudyImg from "../img/caseStudyImg.png";
 import webLogo from "../img/web-logo.svg";
 import EssayWriting from "../EssayWriting/EssayWriting";
+import ResumeWriting from "../ResumeWriting/ResumeWriting";
+import ReflectiveWriting from "../ReflectiveWriting/ReflectiveWriting";
+import ResearchWriting from "../ResearchWriting/ResearchWriting";
+import DissertationWriting from "../DissertationWriting/DissertationWriting";
+import HomeworkHelp from "../HomeworkHelp/HomeworkHelp";
+import STATA from "../STATA/STATA";
 import { MdOutlineVerifiedUser } from "react-icons/md";
 import { GiClockwork } from "react-icons/gi";
 
@@ -32,16 +38,14 @@ const CaseStudy = () => {
         </div>
         <div className={Style.caseStudy_container_right_box}>
           <div className={Style.caseStudy_container_right_box_data}>
-            <Link>Case Study Help</Link>
-            <Link to="essayWriting" element={<EssayWriting />}>
-              Essay Writing
-            </Link>
-            <Link>Refective Writing</Link>
-            <Link>Resume Writing</Link>
-            <Link>Research Writing</Link>
-            <Link>Dissertation Writing</Link>
-            <Link>Homework Help</Link>
-            <Link>STATA</Link>
+            <Link to="/caseStudy">Case Study Help</Link>
+            <Link to="/essayWriting">Essay Writing</Link>
+            <Link to="/reflectiveWriting">Reflective Writing</Link>
+            <Link to="/resumeWriting">Resume Writing</Link>
+            <Link to="/researchWriting">Research Writing</Link>
+            <Link to="/dissertationWriting">Dissertation Writing</Link>
+            <Link to="/homeworkHelp">Homework Help</Link>
+            <Link to="/STATA">STATA</Link>
           </div>
         </div>
       </div>

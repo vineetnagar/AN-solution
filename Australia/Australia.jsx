@@ -26,10 +26,10 @@ const Australia = () => {
         </div>
         <div className={Style.australia_container_right_box}>
           <div className={Style.australia_container_right_box_data}>
-            <Link>UK</Link>
-            <Link>Australia</Link>
-            <Link>Germany</Link>
-            <Link>UAE</Link>
+            <Link to="/uk">UK</Link>
+            <Link to="/australia">Australia</Link>
+            <Link to="/germany">Germany</Link>
+            <Link to="/uae">UAE</Link>
           </div>
         </div>
       </div>

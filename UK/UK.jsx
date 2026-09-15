@@ -1,6 +1,6 @@
 import React from "react";
 import Style from "./UK.module.css";
-import { Link } from "react-router-dom";
+import { Link, Outlet } from "react-router-dom";
 import caseStudyHeroImg from "../img/caseStudyHeroImg.png";
 import caseStudyImg from "../img/caseStudyImg.png";
 import webLogo from "../img/web-logo.svg";
@@ -27,10 +27,10 @@ const UK = () => {
         </div>
         <div className={Style.uk_container_right_box}>
           <div className={Style.uk_container_right_box_data}>
-            <Link>UK</Link>
-            <Link>Australia</Link>
-            <Link>Germany</Link>
-            <Link>UAE</Link>
+            <Link to="/uk">UK</Link>
+            <Link to="/australia">Australia</Link>
+            <Link to="/germany">Germany</Link>
+            <Link to="/uae">UAE</Link>
           </div>
         </div>
       </div>
