@@ -2,7 +2,7 @@ import React from "react";
 import Style from "./UAE.module.css";
 import { Link } from "react-router-dom";
 import caseStudyHeroImg from "../img/caseStudyHeroImg.png";
-import caseStudyImg from "../img/caseStudyImg.png";
+import countriesImg from "../img/countriesImg.png";
 import webLogo from "../img/web-logo.svg";
 import EssayWriting from "../EssayWriting/EssayWriting";
 import { MdOutlineVerifiedUser } from "react-icons/md";
@@ -22,7 +22,7 @@ const UAE = () => {
       </div>
       <div className={Style.uae_container}>
         <div className={Style.uae_container_left_img}>
-          <img src={caseStudyImg} width={700} height={200} />
+          <img src={countriesImg} width={600} height={400} />
         </div>
         <div className={Style.uae_container_right_box}>
           <div className={Style.uae_container_right_box_data}>

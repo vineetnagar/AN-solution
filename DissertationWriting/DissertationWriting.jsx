@@ -2,7 +2,7 @@ import React from "react";
 import Style from "./Dissertation.module.css";
 import { Link } from "react-router-dom";
 import caseStudyHeroImg from "../img/caseStudyHeroImg.png";
-import caseStudyImg from "../img/caseStudyImg.png";
+import dissertationWritingImg from "../img/dissertationWritingImg.png";
 import webLogo from "../img/web-logo.svg";
 import EssayWriting from "../EssayWriting/EssayWriting";
 import { MdOutlineVerifiedUser } from "react-icons/md";
@@ -28,7 +28,7 @@ const DissertationWriting = () => {
 
       <div className={Style.dissertationWriting_container}>
         <div className={Style.dissertationWriting_container_left_img}>
-          <img src={caseStudyImg} width={700} height={200} />
+          <img src={dissertationWritingImg} width={700} height={400} />
         </div>
         <div className={Style.dissertationWriting_container_right_box}>
           <div className={Style.dissertationWriting_container_right_box_data}>

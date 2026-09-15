@@ -2,7 +2,7 @@ import React from "./Finance.module.css";
 import Style from "./Finance.module.css";
 import { Link } from "react-router-dom";
 import caseStudyHeroImg from "../img/caseStudyHeroImg.png";
-import caseStudyImg from "../img/caseStudyImg.png";
+import FinanceImg from "../img/FinanceImg.png";
 import webLogo from "../img/web-logo.svg";
 import EssayWriting from "../EssayWriting/EssayWriting";
 import { MdOutlineVerifiedUser } from "react-icons/md";
@@ -28,7 +28,7 @@ const Finance = () => {
 
       <div className={Style.finance_container}>
         <div className={Style.finance_container_left_img}>
-          <img src={caseStudyImg} width={700} height={200} />
+          <img src={FinanceImg} width={700} height={400} />
         </div>
         <div className={Style.finance_container_right_box}>
           <div className={Style.finance_container_right_box_data}>

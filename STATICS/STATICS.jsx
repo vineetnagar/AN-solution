@@ -2,7 +2,7 @@ import React from "react";
 import Style from "./STATICS.module.css";
 import { Link } from "react-router-dom";
 import caseStudyHeroImg from "../img/caseStudyHeroImg.png";
-import caseStudyImg from "../img/caseStudyImg.png";
+import StatisticsImg from "../img/StatisticsImg.png";
 import webLogo from "../img/web-logo.svg";
 import EssayWriting from "../EssayWriting/EssayWriting";
 import { MdOutlineVerifiedUser } from "react-icons/md";
@@ -29,7 +29,7 @@ const STATICS = () => {
 
       <div className={Style.statics_container}>
         <div className={Style.statics_container_left_img}>
-          <img src={caseStudyImg} width={700} height={200} />
+          <img src={StatisticsImg} width={700} height={400} />
         </div>
         <div className={Style.statics_container_right_box}>
           <div className={Style.statics_container_right_box_data}>

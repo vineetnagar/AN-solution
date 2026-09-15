@@ -3,7 +3,7 @@ import Style from "./EssayWriting.module.css";
 import { Link } from "react-router-dom";
 import caseStudyHeroImg from "../img/caseStudyHeroImg.png";
 import webLogo from "../img/web-logo.svg";
-import caseStudyImg from "../img/caseStudyImg.png";
+import essayWritingImg from "../img/essayWritingImg.png";
 import { MdOutlineVerifiedUser } from "react-icons/md";
 import { GiClockwork } from "react-icons/gi";
 const EssayWriting = () => {
@@ -26,7 +26,7 @@ const EssayWriting = () => {
       </div>
       <div className={Style.essayWriting_container}>
         <div className={Style.essayWriting_container_left_img}>
-          <img src={caseStudyImg} width={700} height={200} />
+          <img src={essayWritingImg} width={700} height={400} />
         </div>
         <div className={Style.essayWriting_container_right_box}>
           <div className={Style.essayWriting_container_right_box_data}>

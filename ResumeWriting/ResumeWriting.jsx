@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import Style from "./ResumeWriting.module.css";
 import caseStudyHeroImg from "../img/caseStudyHeroImg.png";
 import webLogo from "../img/web-logo.svg";
-import caseStudyImg from "../img/caseStudyImg.png";
+import resumeWritingImg from "../img/resumeWritingImg.png";
 import EssayWriting from "../EssayWriting/EssayWriting";
 import { MdOutlineVerifiedUser } from "react-icons/md";
 import { GiClockwork } from "react-icons/gi";
@@ -28,7 +28,7 @@ const ResumeWriting = () => {
 
       <div className={Style.resumeWriting_container}>
         <div className={Style.resumeWriting_container_left_img}>
-          <img src={caseStudyImg} width={700} height={200} />
+          <img src={resumeWritingImg} width={700} height={400} />
         </div>
         <div className={Style.resumeWriting_container_right_box}>
           <div className={Style.resumeWriting_container_right_box_data}>

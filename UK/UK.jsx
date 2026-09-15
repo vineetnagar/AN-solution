@@ -2,7 +2,7 @@ import React from "react";
 import Style from "./UK.module.css";
 import { Link, Outlet } from "react-router-dom";
 import caseStudyHeroImg from "../img/caseStudyHeroImg.png";
-import caseStudyImg from "../img/caseStudyImg.png";
+import UKImg from "../img/UKImg.jpg";
 import webLogo from "../img/web-logo.svg";
 import EssayWriting from "../EssayWriting/EssayWriting";
 import { MdOutlineVerifiedUser } from "react-icons/md";
@@ -23,7 +23,7 @@ const UK = () => {
       </div>
       <div className={Style.uk_container}>
         <div className={Style.uk_container_left_img}>
-          <img src={caseStudyImg} width={700} height={200} />
+          <img src={UKImg} width={500} height={500} />
         </div>
         <div className={Style.uk_container_right_box}>
           <div className={Style.uk_container_right_box_data}>

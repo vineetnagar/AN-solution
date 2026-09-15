@@ -2,7 +2,7 @@ import React from "react";
 import Style from "./Management.module.css";
 import { Link } from "react-router-dom";
 import caseStudyHeroImg from "../img/caseStudyHeroImg.png";
-import caseStudyImg from "../img/caseStudyImg.png";
+import managementImg from "../img/managementImg.png";
 import webLogo from "../img/web-logo.svg";
 import EssayWriting from "../EssayWriting/EssayWriting";
 import { MdOutlineVerifiedUser } from "react-icons/md";
@@ -28,7 +28,7 @@ const Management = () => {
 
       <div className={Style.management_container}>
         <div className={Style.management_container_left_img}>
-          <img src={caseStudyImg} width={700} height={200} />
+          <img src={managementImg} width={700} height={400} />
         </div>
         <div className={Style.management_container_right_box}>
           <div className={Style.management_container_right_box_data}>

@@ -59,9 +59,6 @@
 .marketing_container {
   display: flex;
 }
-.marketing_container_left_img {
-  background-color: #ffd8d8;
-}
 
 .marketing_container_right_box_data {
   display: flex;

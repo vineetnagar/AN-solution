@@ -2,7 +2,7 @@ import React from "react";
 import Style from "./Economics.module.css";
 import { Link } from "react-router-dom";
 import caseStudyHeroImg from "../img/caseStudyHeroImg.png";
-import caseStudyImg from "../img/caseStudyImg.png";
+import EconomicsImg from "../img/EconomicsImg.png";
 import webLogo from "../img/web-logo.svg";
 import { MdOutlineVerifiedUser } from "react-icons/md";
 import { GiClockwork } from "react-icons/gi";
@@ -26,7 +26,7 @@ const Economics = () => {
       </div>
       <div className={Style.economics_container}>
         <div className={Style.economics_container_left_img}>
-          <img src={caseStudyImg} width={700} height={200} />
+          <img src={EconomicsImg} width={700} height={400} />
         </div>
         <div className={Style.economics_container_right_box}>
           <div className={Style.economics_container_right_box_data}>

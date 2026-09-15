@@ -34,7 +34,7 @@ const CaseStudy = () => {
 
       <div className={Style.caseStudy_container}>
         <div className={Style.caseStudy_container_left_img}>
-          <img src={caseStudyImg} width={700} height={200} />
+          <img src={caseStudyImg} width={700} height={400} />
         </div>
         <div className={Style.caseStudy_container_right_box}>
           <div className={Style.caseStudy_container_right_box_data}>

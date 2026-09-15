@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import Style from "./ReflectiveWriting.module.css";
 import webLogo from "../img/web-logo.svg";
 import caseStudyHeroImg from "../img/caseStudyHeroImg.png";
-import caseStudyImg from "../img/caseStudyImg.png";
+import reflectiveWritingImg from "../img/reflectiveWritingImg.png";
 import EssayWriting from "../EssayWriting/EssayWriting";
 import { MdOutlineVerifiedUser } from "react-icons/md";
 import { GiClockwork } from "react-icons/gi";
@@ -28,7 +28,7 @@ const ReflectiveWriting = () => {
 
       <div className={Style.essayWriting_container}>
         <div className={Style.essayWriting_container_left_img}>
-          <img src={caseStudyImg} width={700} height={200} />
+          <img src={reflectiveWritingImg} width={700} height={400} />
         </div>
         <div className={Style.essayWriting_container_right_box}>
           <div className={Style.essayWriting_container_right_box_data}>
