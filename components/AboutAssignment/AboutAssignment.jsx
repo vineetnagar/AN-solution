@@ -157,11 +157,11 @@ const AboutAssignment = () => {
           <div className={Style.AboutAssignment_info}>
             <h4>Management</h4>
             <p>
-              In the field of Management studies, Arc Creatif Solution (ACS) is
-              your dedicated team ready to assist with a range of assignment
-              tasks. From dissertations to essays, case studies, and research
-              papers, our comprehensive services cover all aspects of Management
-              coursework. Trust ACS for tailored solutions that align with the
+              In the field of Management studies, AN Solution (ANS) is your
+              dedicated team ready to assist with a range of assignment tasks.
+              From dissertations to essays, case studies, and research papers,
+              our comprehensive services cover all aspects of Management
+              coursework. Trust ANS for tailored solutions that align with the
               specific requirements of your assignments and guide you to success
               in Management studies.
             </p>
@@ -191,15 +191,15 @@ const AboutAssignment = () => {
           <div className={Style.AboutAssignment_info}>
             <h4>IT</h4>
             <p>
-              In the dynamic landscape of IT studies, Arc Creatif Solution (ACS)
-              stands as your dedicated team, ready to assist with a diverse
-              range of assignment challenges. Our comprehensive services span
+              In the dynamic landscape of IT studies, AN Solution (ANS) stands
+              as your dedicated team, ready to assist with a diverse range of
+              assignment challenges. Our comprehensive services span
               dissertations, essays, case studies, research papers, and more,
               covering all facets of IT coursework. With expertise across
-              various IT domains, ACS provides tailored solutions to align with
+              various IT domains, ANS provides tailored solutions to align with
               the specific requirements of your assignments. Whether you're
               navigating programming, database management, or network security,
-              trust ACS for expert guidance and success in your IT studies.
+              trust ANS for expert guidance and success in your IT studies.
             </p>
             <div className={Style.AboutAssignment_info_list}>
               <ul>
@@ -225,16 +225,15 @@ const AboutAssignment = () => {
           <div className={Style.AboutAssignment_info}>
             <h4>Law</h4>
             <p>
-              In the intricate domain of Law studies, Arc Creatif Solution (ACS)
-              is your committed team, poised to assist with a spectrum of
-              assignment challenges. From comprehensive dissertations to precise
-              essays, detailed case studies, and research papers, our services
-              encompass the entirety of Law coursework. With a team well-versed
-              in legal principles, ACS delivers tailored solutions that meet the
-              specific requirements of your assignments. Whether you're
-              navigating constitutional law, criminal justice, or legal
-              research, rely on ACS for expert assistance and success in your
-              Law studies.
+              In the intricate domain of Law studies, AN Solution (ANS) is your
+              committed team, poised to assist with a spectrum of assignment
+              challenges. From comprehensive dissertations to precise essays,
+              detailed case studies, and research papers, our services encompass
+              the entirety of Law coursework. With a team well-versed in legal
+              principles, ANS delivers tailored solutions that meet the specific
+              requirements of your assignments. Whether you're navigating
+              constitutional law, criminal justice, or legal research, rely on
+              ANS for expert assistance and success in your Law studies.
             </p>
             <div className={Style.AboutAssignment_info_list}>
               <ul>
@@ -258,15 +257,15 @@ const AboutAssignment = () => {
           <div className={Style.AboutAssignment_info}>
             <h4>Statics</h4>
             <p>
-              In the realm of Statistics, Arc Creatif Solution (ACS) serves as
-              your dedicated team, ready to tackle a variety of assignment
+              In the realm of Statistics, AN Solution (ANS) serves as your
+              dedicated team, ready to tackle a variety of assignment
               challenges. From in-depth dissertations to focused essays,
               detailed case studies, and research papers, our services cover the
               full spectrum of Statistics coursework. With a team proficient in
-              statistical methods, ACS delivers customized solutions tailored to
+              statistical methods, ANS delivers customized solutions tailored to
               the specific requirements of your assignments. Whether you're
               working on hypothesis testing, regression analysis, or probability
-              distributions, trust ACS for expert guidance and success in your
+              distributions, trust ANS for expert guidance and success in your
               Statistics studies.
             </p>
             <div className={Style.AboutAssignment_info_list}>
@@ -293,15 +292,15 @@ const AboutAssignment = () => {
           <div className={Style.AboutAssignment_info}>
             <h4>Engineering</h4>
             <p>
-              In the diverse field of Engineering studies, Arc Creatif Solution
-              (ACS) is your dedicated partner, equipped to handle a range of
-              assignment challenges. From comprehensive dissertations to
-              targeted essays, intricate case studies, and research papers, our
-              services encompass the entirety of Engineering coursework. With a
-              team well-versed in various engineering disciplines, ACS delivers
+              In the diverse field of Engineering studies, AN Solution (ANS) is
+              your dedicated partner, equipped to handle a range of assignment
+              challenges. From comprehensive dissertations to targeted essays,
+              intricate case studies, and research papers, our services
+              encompass the entirety of Engineering coursework. With a team
+              well-versed in various engineering disciplines, ANS delivers
               tailored solutions that align with the specific requirements of
               your assignments. Whether you're navigating complex equations,
-              design projects, or theoretical concepts, trust ACS for expert
+              design projects, or theoretical concepts, trust ANS for expert
               assistance and success in your Engineering studies.
             </p>
             <div className={Style.AboutAssignment_info_list}>
@@ -335,16 +334,16 @@ const AboutAssignment = () => {
           <div className={Style.AboutAssignment_info}>
             <h4>Nursing</h4>
             <p>
-              In the realm of Nursing studies, Arc Creatif Solution (ACS) serves
-              as your committed support system, ready to address a variety of
-              assignment challenges. From detailed dissertations to focused
-              essays, intricate case studies, and research papers, our services
-              cover the comprehensive spectrum of Nursing coursework. With a
-              team well-versed in nursing principles, ACS delivers tailored
-              solutions that align with the specific requirements of your
-              assignments. Whether you're navigating clinical assessments, care
-              plans, or healthcare research, trust ACS for expert assistance and
-              success in your Nursing studies.
+              In the realm of Nursing studies, AN Solution (ANS) serves as your
+              committed support system, ready to address a variety of assignment
+              challenges. From detailed dissertations to focused essays,
+              intricate case studies, and research papers, our services cover
+              the comprehensive spectrum of Nursing coursework. With a team
+              well-versed in nursing principles, ANS delivers tailored solutions
+              that align with the specific requirements of your assignments.
+              Whether you're navigating clinical assessments, care plans, or
+              healthcare research, trust ANS for expert assistance and success
+              in your Nursing studies.
             </p>
             <div className={Style.AboutAssignment_info_list}>
               <ul>
@@ -370,15 +369,15 @@ const AboutAssignment = () => {
           <div className={Style.AboutAssignment_info}>
             <h4>Accounting</h4>
             <p>
-              In the intricate field of Accounting studies, Arc Creatif Solution
-              (ACS) is your dedicated ally, equipped to tackle a range of
-              assignment challenges. From detailed dissertations to targeted
-              essays, comprehensive case studies, and research papers, our
-              services cover the full spectrum of Accounting coursework. With a
-              team well-versed in accounting principles, ACS delivers tailored
+              In the intricate field of Accounting studies, AN Solution (ANS) is
+              your dedicated ally, equipped to tackle a range of assignment
+              challenges. From detailed dissertations to targeted essays,
+              comprehensive case studies, and research papers, our services
+              cover the full spectrum of Accounting coursework. With a team
+              well-versed in accounting principles, ANS delivers tailored
               solutions that align with the specific requirements of your
               assignments. Whether you're navigating financial statements,
-              auditing processes, or tax regulations, trust ACS for expert
+              auditing processes, or tax regulations, trust ANS for expert
               assistance and success in your Accounting studies.
             </p>
             <div className={Style.AboutAssignment_info_list}>
@@ -399,14 +398,14 @@ const AboutAssignment = () => {
           <div className={Style.AboutAssignment_info}>
             <h4>General Subjects</h4>
             <p>
-              In the realm of General Subjects, Arc Creatif Solution (ACS) is
-              your versatile partner, offering support across a wide range of
+              In the realm of General Subjects, AN Solution (ANS) is your
+              versatile partner, offering support across a wide range of
               assignment challenges. From comprehensive essays to detailed case
               studies and research papers, our services cover the diverse
               landscape of coursework in general subjects. With a team of adept
-              professionals, ACS delivers tailored solutions that align with the
+              professionals, ANS delivers tailored solutions that align with the
               specific requirements of your assignments. Whether you're
-              exploring literature, history, or social sciences, trust ACS for
+              exploring literature, history, or social sciences, trust ANS for
               expert assistance and success in your general subject studies.
             </p>
             <div className={Style.AboutAssignment_info_list}>

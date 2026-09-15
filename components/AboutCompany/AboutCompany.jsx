@@ -16,15 +16,15 @@ const AboutCompany = () => {
           </div>
           <div className={Style.aboutCompany_data_left_info}>
             <p>
-              Arc Creatif Solution (ACS) is more than a service; we are your
-              academic support system, dedicated to enhancing your learning
-              experience and facilitating your success. Our team consists of
-              seasoned professionals who have graduated from prestigious
-              universities, bringing a wealth of knowledge and expertise to
-              address your academic challenges.
+              AN Solution (ANS) is more than a service; we are your academic
+              support system, dedicated to enhancing your learning experience
+              and facilitating your success. Our team consists of seasoned
+              professionals who have graduated from prestigious universities,
+              bringing a wealth of knowledge and expertise to address your
+              academic challenges.
             </p>
             <p>
-              At ACS, we understand the complexities and pressures of academic
+              At ANS, we understand the complexities and pressures of academic
               life. Juggling multiple responsibilities and navigating intricate
               coursework can be overwhelming. That's where we come in — to
               provide not just assignments but a reliable partnership that
@@ -40,21 +40,17 @@ const AboutCompany = () => {
               enriching and tailored to your academic journey.
             </p>
             <p>
-              Joining ACS means embracing a collaborative approach to academic
+              Joining ANS means embracing a collaborative approach to academic
               success. Our support extends beyond the completion of assignments;
               we aim to guide and empower you throughout your educational
               voyage. Whether you're grappling with complex subjects or seeking
-              assistance in mastering challenging topics, ACS is here to be your
+              assistance in mastering challenging topics, ANS is here to be your
               ally in achieving academic excellence.
             </p>
           </div>
           <div className={Style.aboutCompany_data_left_founders}>
             <div className={Style.aboutCompany_data_left_founders_1}>
-              <h5>Mr. Ummed Singh</h5>
-              <p>Director & Founder</p>
-            </div>
-            <div className={Style.aboutCompany_data_left_founders_2}>
-              <h5>Mr. Swadesh Yadav</h5>
+              <h5>Mr. Anirudh Nagar</h5>
               <p>Director & Founder</p>
             </div>
           </div>

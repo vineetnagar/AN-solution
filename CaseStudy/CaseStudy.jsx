@@ -72,25 +72,35 @@ const CaseStudy = () => {
             </p>
 
             <p>
-              <MdOutlineVerifiedUser />A clear problem statement must be
-              defined.
+              <MdOutlineVerifiedUser
+                className={Style.caseStudy_verified_icon}
+              />
+              A clear problem statement must be defined.
             </p>
             <p>
-              <MdOutlineVerifiedUser />
+              <MdOutlineVerifiedUser
+                className={Style.caseStudy_verified_icon}
+              />
               There must be a clear identification of all the literature
               concepts.
             </p>
             <p>
-              <MdOutlineVerifiedUser />
+              <MdOutlineVerifiedUser
+                className={Style.caseStudy_verified_icon}
+              />
               The quality of literature review is important. It needs to present
               independent and extensive research conducted.
             </p>
             <p>
-              <MdOutlineVerifiedUser />
+              <MdOutlineVerifiedUser
+                className={Style.caseStudy_verified_icon}
+              />
               The case study needs to be a demonstration of critical thinking.
             </p>
             <p>
-              <MdOutlineVerifiedUser />
+              <MdOutlineVerifiedUser
+                className={Style.caseStudy_verified_icon}
+              />
               There needs to be a clear conceptual or theoretical model in
               place.
             </p>

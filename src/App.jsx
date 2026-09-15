@@ -62,10 +62,6 @@ function Home() {
   return (
     <main className="mainContent">
       <section className="contentSection">
-        <Hero />
-      </section>
-
-      <section className="contentSection">
         <AboutCompany />
       </section>
 
