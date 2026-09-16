@@ -27,6 +27,9 @@ import UAE from "../UAE/UAE";
 import Germany from "../Germany/Germany";
 import ScrollToTop from "../components/ScrollToTop";
 import AboutUs from "../AboutUs/AboutUs";
+import ContactUs from "../ContactUs/ContactUs";
+import ProjectForm from "../ProjectForm/ProjectForm";
+import HeroSection from "../components/HeroSection/HeroSection";
 
 function App() {
   return (
@@ -57,6 +60,8 @@ function App() {
         <Route path="/australia" element={<Australia />} />
         <Route path="/germany" element={<Germany />} />
         <Route path="/uae" element={<UAE />} />
+        <Route path="/contactUs" element={<ContactUs />} />
+        <Route path="/projectForm" element={<ProjectForm />} />
       </Routes>
 
       <Footer />
@@ -67,6 +72,9 @@ function App() {
 function Home() {
   return (
     <main className="mainContent">
+      <section className="contentSection">
+        <HeroSection />
+      </section>
       <section className="contentSection">
         <AboutCompany />
       </section>

@@ -127,6 +127,12 @@ const Navbar = () => {
             <p onClick={() => openCountries()}>
               Countries {countries ? <IoIosArrowDown /> : <IoIosArrowUp />}
             </p>
+            <Link
+              to="/contactUs"
+              className={Style.Navbar_container_links_items_items}
+            >
+              Contact Us
+            </Link>
           </div>
 
           {services && (

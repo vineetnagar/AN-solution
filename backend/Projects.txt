@@ -3,3 +3,7 @@
 {"name":"megha Nagar","email":"dk@gamil.com","contact":"9799772967","subject":"Nursing","message":"contact me","_id":"6aaad96ef340dae65f4455d0","__v":0}
 {"name":"megha Nagar","email":"dk@gamil.com","contact":"9799772967","subject":"Nursing","message":"contact me","_id":"6aaadcf501437128077286d2","__v":0}
 {"name":"megha Nagar","email":"dk@gamil.com","contact":"9799772967","subject":"Nursing","message":"contact me","_id":"6aaadd1901437128077286d3","__v":0}
+{"name":"megha","email":"abc@gmail.com","contact":"09799772967","subject":"maths","message":"contact me","_id":"6aaaea019516732a652af4ca","__v":0}
+{"name":"megha","email":"abc@gmail.com","contact":"97997729","subject":"maths","message":"contact me","_id":"6aaaec2e9516732a652af4cb","__v":0}
+{"name":"vineet","email":"abc@gmail.com","contact":"9799772967","subject":"maths","message":"contact me","_id":"6aaaeccdab0d60e6a912d7ee","__v":0}
+{"name":"Dhakad Vineet","email":"dhakadvineet71@gmail.com","contact":"9799772967","subject":"maths","message":"contact me","_id":"6aab04a40edee730ca80fea4","__v":0}

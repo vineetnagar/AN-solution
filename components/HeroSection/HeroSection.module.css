@@ -1,0 +1,36 @@
+.heroSection {
+  margin-top: 4rem;
+}
+
+.heroSection_container_left {
+  width: 30rem;
+  margin-left: 4rem;
+  margin-top: rem;
+}
+.heroSection_container {
+  display: flex;
+  gap: 6rem;
+}
+.heroSection_container_left li {
+  text-align: justify;
+  color: #828282;
+  font-size: 0.9rem;
+  margin-top: 1rem;
+}
+
+.heroSection_container_left_offer_box {
+  background-color: #00a2ff;
+  color: #fff;
+  font-weight: 700;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  font-size: 1rem;
+  padding: 0.5rem;
+  text-align: center;
+  margin-top: 4rem;
+}
+
+.heroSection_container_left_offer_box b {
+  color: red;
+}

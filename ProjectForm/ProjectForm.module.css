@@ -1,0 +1,75 @@
+.projectForm_container_right {
+  width: 30rem;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+  padding: 4rem 1rem;
+  height: min-content;
+}
+
+.projectForm_container_right_heading {
+  text-align: center;
+}
+
+.projectForm_container_right_heading h5 {
+  color: red;
+  font-weight: 900;
+}
+
+.projectForm_container_right_heading p {
+  font-size: 0.9rem;
+  color: #828282;
+}
+
+.projectForm_container_right_form h6 {
+  font-weight: 800;
+}
+.projectForm_container_right_form_form input {
+  background-color: #fff;
+  outline: none;
+  color: black;
+  border: 1px solid #ced4da;
+}
+
+.form_button {
+  margin-left: 4rem;
+}
+
+@media (max-width: 373px) {
+  .ProjectForm {
+    padding: 32px 12px;
+  }
+  .projectForm_container_right {
+    padding: 28px 22px 32px;
+    border-left-width: 2px;
+  }
+  .projectForm_container_right_heading h5 {
+    font-size: 18px;
+  }
+  .projectForm_container_right_heading p {
+    font-size: 12px;
+  }
+}
+
+@media (min-width: 374px) and (max-width: 575px) {
+  .ProjectForm {
+    padding: 40px 16px;
+  }
+  .projectForm_container_right {
+    padding: 32px 26px 36px;
+  }
+  .projectForm_container_right_heading h5 {
+    font-size: 19px;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+  .projectForm_container_right {
+    max-width: 420px;
+    padding: 36px 36px 40px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .projectForm_container_right {
+    max-width: 460px;
+  }
+}

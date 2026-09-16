@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import Style from "./AboutCompany.module.css";
 import Button from "../Button/Button";
 import { GoArrowRight } from "react-icons/go";
@@ -55,7 +56,9 @@ const AboutCompany = () => {
             </div>
           </div>
           <div className={Style.aboutCompany_data_left_button}>
-            <Button btnName="More About Us" icon={<GoArrowRight />} />
+            <Link to="/aboutUs">
+              <Button btnName="More About Us" icon={<GoArrowRight />} />
+            </Link>
           </div>
         </div>
 
