@@ -1,5 +1,6 @@
 import React from "react";
 import Style from "./Footer.module.css";
+import { Link, Outlet } from "react-router-dom";
 import { GrBook } from "react-icons/gr";
 import { VscWorkspaceTrusted } from "react-icons/vsc";
 import { FaInstagram } from "react-icons/fa";
@@ -26,15 +27,15 @@ const Footer = () => {
         <div className={Style.Footer_container1_row1}>
           <h4>Services</h4>
           <ul>
-            <li>
+            <Link to="/caseStudy">
               <IoIosAdd /> Case Study
-            </li>
-            <li>
+            </Link>
+            <Link to="/essayWriting">
               <IoIosAdd /> Essay Writing
-            </li>
-            <li>
+            </Link>
+            <Link to="/reflectiveWriting">
               <IoIosAdd /> Reflective Writing
-            </li>
+            </Link>
           </ul>
         </div>
 
@@ -44,38 +45,35 @@ const Footer = () => {
           <h4>Samples</h4>
           <div className={Style.Footer_container1_row_list}>
             <ul>
-              <li>
+              <Link to="/resumeWriting">
                 <IoIosAdd /> Resume Writing
-              </li>
-              <li>
+              </Link>
+              <Link to="/researchWriting">
                 <IoIosAdd /> Research Writing
-              </li>
-              <li>
+              </Link>
+              <Link to="/dissertationWriting">
                 <IoIosAdd /> Dissertation Writing
-              </li>
-              <li>
+              </Link>
+              <Link to="/homeworkHelp">
                 <IoIosAdd /> Homework Help
-              </li>
-              <li>
+              </Link>
+              <Link to="/STATA">
                 <IoIosAdd /> STATA
-              </li>
+              </Link>
             </ul>
             <ul>
-              <li>
+              <Link to="/nursing">
                 <IoIosAdd /> Nursing
-              </li>
-              <li>
+              </Link>
+              <Link to="/management">
                 <IoIosAdd /> Management
-              </li>
-              <li>
+              </Link>
+              <Link to="/law">
                 <IoIosAdd /> Law
-              </li>
-              <li>
+              </Link>
+              <Link to="/economics">
                 <IoIosAdd /> Economics
-              </li>
-              <li>
-                <IoIosAdd /> Science
-              </li>
+              </Link>
             </ul>
           </div>
         </div>
@@ -86,29 +84,26 @@ const Footer = () => {
           <h4>Usefull links</h4>
           <div className={Style.Footer_container1_row_list}>
             <ul>
-              <li>
-                <IoIosAdd /> Engineering
-              </li>
-              <li>
+              <Link to="/statics">
                 <IoIosAdd /> Statics
-              </li>
-              <li>
+              </Link>
+              <Link to="/finance">
                 <IoIosAdd /> Finance
-              </li>
-              <li>
+              </Link>
+              <Link to="/marketing">
                 <IoIosAdd /> Marketing
-              </li>
+              </Link>
             </ul>
             <ul>
-              <li>
+              <Link>
                 <IoIosAdd /> About Us
-              </li>
-              <li>
+              </Link>
+              <Link>
                 <IoIosAdd /> Contact Us
-              </li>
-              <li>
+              </Link>
+              <Link>
                 <IoIosAdd /> Terms & Conditions
-              </li>
+              </Link>
             </ul>
           </div>
         </div>
@@ -156,16 +151,16 @@ const Footer = () => {
           <GrBook />
           <VscWorkspaceTrusted />
           <span>
-            <p>2025 Company, Inc</p>
+            <p>2026 Company, AN Solution</p>
           </span>
         </div>
 
         <div className={Style.Footer_container_right}>
           <div className={Style.Footer_container_right_social}>
-            <a href="">
+            <a href="https://www.instagram.com/aditie_sharma__/">
               <FaInstagram />
             </a>
-            <a href="">
+            <a href="https://www.instagram.com/aditie_sharma__/">
               <FaFacebook />
             </a>
           </div>

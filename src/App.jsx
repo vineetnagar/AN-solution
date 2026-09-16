@@ -1,6 +1,5 @@
 import { Routes, Route } from "react-router-dom";
 import Navbar from "../components/Navbar/Navbar";
-import Hero from "../components/Hero/Hero";
 import AboutCompany from "../components/AboutCompany/AboutCompany";
 import "bootstrap/dist/css/bootstrap.min.css";
 import Features from "../components/Features/Features";
@@ -26,13 +25,19 @@ import UK from "../UK/UK";
 import Australia from "../Australia/Australia";
 import UAE from "../UAE/UAE";
 import Germany from "../Germany/Germany";
+import ScrollToTop from "../components/ScrollToTop";
+import AboutUs from "../AboutUs/AboutUs";
+
 function App() {
   return (
     <>
+      <ScrollToTop />
+
       <Navbar />
 
       <Routes>
         <Route path="/" element={<Home />} />
+        <Route path="/aboutUs" element={<AboutUs />} />
         <Route path="/caseStudy" element={<CaseStudy />} />
         <Route path="/essayWriting" element={<EssayWriting />} />
         <Route path="/reflectiveWriting" element={<ReflectiveWriting />} />

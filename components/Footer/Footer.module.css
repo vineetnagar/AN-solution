@@ -21,14 +21,17 @@
   text-align: center;
 }
 
-.Footer_container1 li {
+.Footer_container1 a {
   font-size: 0.8rem;
   line-height: 2rem;
   color: #7c7e84;
+  text-decoration: none;
 }
 
 .Footer ul {
   list-style: none;
+  display: flex;
+  flex-direction: column;
   padding: 0;
   margin: 0;
 }

@@ -1,9 +1,0 @@
-@media (max-width: 575px) {
-  .heroComponent h1 {
-    font-size: 3.2rem;
-  }
-
-  .heroComponent p {
-    font-size: 2rem;
-  }
-}

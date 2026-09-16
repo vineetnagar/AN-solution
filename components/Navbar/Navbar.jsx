@@ -112,7 +112,10 @@ const Navbar = () => {
             <Link to="/" className={Style.Navbar_container_links_items_items}>
               Home
             </Link>
-            <Link to="/" className={Style.Navbar_container_links_items_items}>
+            <Link
+              to="/aboutUs"
+              className={Style.Navbar_container_links_items_items}
+            >
               About Us
             </Link>
             <p onClick={() => openServices()}>
