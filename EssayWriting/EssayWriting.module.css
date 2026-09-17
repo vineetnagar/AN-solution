@@ -121,3 +121,111 @@
 .essayWriting_verified_icon {
   color: #00a2ff;
 }
+
+@media (max-width: 373px) {
+  .essayWriting_hero {
+    padding: 36px 16px;
+  }
+  .essayWriting_hero_container {
+    flex-direction: column;
+    text-align: center;
+    gap: 24px;
+  }
+  .essayWriting_hero_container_left img {
+    width: 180px;
+    height: auto;
+  }
+  .essayWriting_hero_container_left h1 {
+    font-size: 26px;
+  }
+  .essayWriting_container {
+    flex-direction: column;
+    padding: 32px 16px;
+    gap: 24px;
+  }
+  .essayWriting_container_right_box {
+    width: 100%;
+  }
+  .essayWriting_container_right_data {
+    width: 100%;
+  }
+  .essayWriting_container_left_data_first h3 {
+    font-size: 20px;
+  }
+}
+
+@media (min-width: 374px) and (max-width: 575px) {
+  .essayWriting_hero {
+    padding: 40px 20px;
+  }
+  .essayWriting_hero_container {
+    flex-direction: column;
+    text-align: center;
+    gap: 28px;
+  }
+  .essayWriting_hero_container_left img {
+    width: 220px;
+    height: auto;
+  }
+  .essayWriting_hero_container_left h1 {
+    font-size: 30px;
+  }
+  .essayWriting_container {
+    flex-direction: column;
+    padding: 40px 20px;
+    gap: 28px;
+  }
+  .essayWriting_container_right_box {
+    width: 100%;
+  }
+  .essayWriting_container_right_data {
+    width: 100%;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+  .essayWriting_hero_container {
+    flex-direction: column;
+    text-align: center;
+    gap: 32px;
+  }
+  .essayWriting_hero_container_left h1 {
+    font-size: 34px;
+  }
+  .essayWriting_container {
+    flex-direction: column;
+    padding: 48px 24px;
+    gap: 32px;
+  }
+  .essayWriting_container_right_box {
+    width: 100%;
+  }
+  .essayWriting_container_right_data {
+    width: 100%;
+    max-width: 420px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .essayWriting_hero_container {
+    gap: 24px;
+  }
+  .essayWriting_hero_container_left h1 {
+    font-size: 38px;
+  }
+  .essayWriting_container {
+    flex-direction: column;
+    gap: 32px;
+  }
+  .essayWriting_container_right_box {
+    width: 100%;
+  }
+  .essayWriting_container_right_data {
+    width: 100%;
+    max-width: 420px;
+  }
+  .essayWriting_container_left_data_first p,
+  .essayWriting_container_left_data_second > p:first-of-type {
+    max-width: 100%;
+  }
+}

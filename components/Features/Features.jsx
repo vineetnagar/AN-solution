@@ -18,7 +18,7 @@ const Features = () => {
       <div className={Style.Features_blocks}>
         <div className={Style.Features_blocks_item}>
           <div className={Style.Features_blocks_item_img}>
-            <img src={liveSession} height={150} width={250} />
+            <img src={liveSession} className={Style.Features_featureImg} />
           </div>
           <h5>24/7 Live Sessions</h5>
           <div className={Style.Features_blocks_item_info}>
@@ -34,7 +34,7 @@ const Features = () => {
 
         <div className={Style.Features_blocks_item}>
           <div className={Style.Features_blocks_item_img}>
-            <img src={qualityGuarranty} height={150} width={250} />
+            <img src={qualityGuarranty} className={Style.Features_featureImg} />
           </div>
           <h5>Quality Guarranty</h5>
           <div className={Style.Features_blocks_item_info}>
@@ -49,7 +49,7 @@ const Features = () => {
         </div>
         <div className={Style.Features_blocks_item}>
           <div className={Style.Features_blocks_item_img}>
-            <img src={services} height={150} width={250} />
+            <img src={services} className={Style.Features_featureImg} />
           </div>
           <h5>Services for All Subjects</h5>
           <div className={Style.Features_blocks_item_info}>
@@ -64,7 +64,7 @@ const Features = () => {
         </div>
         <div className={Style.Features_blocks_item}>
           <div className={Style.Features_blocks_item_img}>
-            <img src={reference} height={150} width={250} />
+            <img src={reference} className={Style.Features_featureImg} />
           </div>
           <h5>Credible References</h5>
           <div className={Style.Features_blocks_item_info}>

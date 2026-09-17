@@ -7,7 +7,7 @@
 }
 
 .NumberShow_headings h3 {
-  font-weight: 700;
+  font-weight: 800;
 }
 
 .NumberShow_data {
@@ -26,4 +26,68 @@
   color: black;
   font-weight: 700;
   font-size: 0.9rem;
+}
+@media (max-width: 373px) {
+  .NumberShow_headings {
+    font-size: 1vw;
+  }
+  .NumberShow_data {
+    flex-direction: column;
+  }
+  .NumberShow_data p {
+    font-size: 4vw;
+  }
+
+  .NumberShow_headings p {
+    display: grid;
+    font-size: 4vw;
+    grid-template-columns: repeat(2, 1fr);
+    margin-left: 30vw;
+  }
+}
+@media (min-width: 374px) and (max-width: 575px) {
+  .NumberShow_headings {
+    font-size: 1vw;
+  }
+  .NumberShow_data {
+    flex-direction: column;
+  }
+  .NumberShow_data p {
+    font-size: 2vw;
+  }
+
+  .NumberShow_headings p {
+    display: grid;
+    font-size: 4vw;
+    grid-template-columns: repeat(2, 1fr);
+    margin-left: 30vw;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+  .NumberShow_headings {
+    font-size: 2vw;
+  }
+  .NumberShow_data {
+    flex-direction: column;
+  }
+  .NumberShow_data p {
+    font-size: 2vw;
+  }
+
+  .NumberShow_headings p {
+    font-size: 2.5vw;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .NumberShow_headings {
+    font-size: 2vw;
+  }
+  .NumberShow_data {
+    flex-direction: column;
+  }
+  .NumberShow_data p {
+    font-size: 2vw;
+  }
 }

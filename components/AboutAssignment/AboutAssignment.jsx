@@ -432,7 +432,7 @@ const AboutAssignment = () => {
       </div>
       <div className={Style.AboutAssignment_right}>
         <div className={Style.AboutAssignment_right_img}>
-          <img src={assignmentCover} height={600} width={370} />
+          <img src={assignmentCover} className={Style.AboutAssignment_img} />
         </div>
       </div>
     </div>

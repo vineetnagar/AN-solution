@@ -50,10 +50,8 @@ const AboutCompany = () => {
             </p>
           </div>
           <div className={Style.aboutCompany_data_left_founders}>
-            <div className={Style.aboutCompany_data_left_founders_1}>
-              <h5>Mr. Anirudh Nagar</h5>
-              <p>Director & Founder</p>
-            </div>
+            <h5>Mr. Anirudh Nagar</h5>
+            <p>Director & Founder</p>
           </div>
           <div className={Style.aboutCompany_data_left_button}>
             <Link to="/aboutUs">
@@ -64,7 +62,7 @@ const AboutCompany = () => {
 
         <div className={Style.aboutCompany_data_right}>
           <div className={Style.aboutCompany_data_right_img}>
-            <img src={officeImage} height={600} width={500} />
+            <img src={officeImage} className={Style.aboutCompany_office_img} />
           </div>
         </div>
       </div>

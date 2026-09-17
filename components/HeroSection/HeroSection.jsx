@@ -55,7 +55,7 @@ const HeroSection = () => {
           </div>
         </div>
 
-        <div className={StylePropertyMap.heroSection_container_right}>
+        <div className={Style.heroSection_container_right}>
           <ProjectForm />
         </div>
       </div>

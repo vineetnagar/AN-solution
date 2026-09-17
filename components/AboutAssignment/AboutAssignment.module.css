@@ -1,6 +1,7 @@
 .AboutAssignment {
   display: flex;
   margin-top: 6rem;
+  padding: 0 4rem;
 }
 
 .AboutAssignment_left {
@@ -55,357 +56,86 @@
   color: #828282;
   font-size: 0.9rem;
 }
-/* ========================================= */
-/* Extra Small Devices - 0px to 373px */
-/* ========================================= */
-
+.AboutAssignment_img {
+  width: 30vw;
+  height: 50vw;
+}
 @media (max-width: 373px) {
   .AboutAssignment {
-    width: 92%;
-    margin: 0 auto;
-    display: flex;
     flex-direction: column;
-    gap: 35px;
-  }
-
-  .AboutAssignment_left {
-    width: 100%;
+    margin-left: -7vw;
   }
 
   .AboutAssignment_topics {
-    width: 100%;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 8px;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
   }
-
-  .AboutAssignment_topics p {
-    font-size: 12px;
-    padding: 8px 10px;
-    margin: 0;
-    cursor: pointer;
+  .AboutAssignment_img {
+    width: 60vw;
+    height: 70vw;
+    margin-left: 7vw;
   }
-
-  .AboutAssignment_left hr {
-    margin: 20px 0;
+  .AboutAssignment_info p {
+    width: 80vw;
+    margin-left: -15vw;
   }
-
-  .AboutAssignment_info {
-    width: 200%;
-  }
-
-  .AboutAssignment_info h4 {
-    font-size: 22px;
-    margin-bottom: 15px;
-  }
-
-  .AboutAssignment_info > p {
-    font-size: 13px;
-    line-height: 1.7;
-    margin-bottom: 20px;
-  }
-
   .AboutAssignment_info_list {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    gap: 5px;
-  }
-
-  .AboutAssignment_info_list ul {
-    width: 100%;
-    padding-left: 20px;
-    margin: 0;
-  }
-
-  .AboutAssignment_info_list li {
-    font-size: 13px;
-    line-height: 1.7;
-  }
-
-  .AboutAssignment_right {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-  }
-
-  .AboutAssignment_right_img {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-  }
-
-  .AboutAssignment_right_img img {
-    width: 100%;
-    max-width: 280px;
-    height: auto;
-    object-fit: contain;
+    width: 80vw;
+    font-size: 5vw;
+    margin-left: -25vw;
   }
 }
-
-/* ========================================= */
-/* Mobile - 374px to 575px */
-/* ========================================= */
-
 @media (min-width: 374px) and (max-width: 575px) {
   .AboutAssignment {
-    width: 90%;
-    margin: 0 auto;
-    display: flex;
     flex-direction: column;
-    gap: 40px;
-  }
-
-  .AboutAssignment_left {
-    width: 100%;
+    margin-left: -7vw;
   }
 
   .AboutAssignment_topics {
-    width: 100%;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 10px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
   }
-
-  .AboutAssignment_topics p {
-    font-size: 13px;
-    padding: 9px 12px;
-    margin: 0;
-    cursor: pointer;
+  .AboutAssignment_img {
+    width: 60vw;
+    height: 70vw;
+    margin-left: 7vw;
   }
-
-  .AboutAssignment_left hr {
-    margin: 25px 0;
+  .AboutAssignment_info p {
+    width: 80vw;
   }
-
-  .AboutAssignment_info {
-    width: 100%;
-  }
-
-  .AboutAssignment_info h4 {
-    font-size: 25px;
-    margin-bottom: 15px;
-  }
-
-  .AboutAssignment_info > p {
-    font-size: 14px;
-    line-height: 1.7;
-    margin-bottom: 22px;
-  }
-
   .AboutAssignment_info_list {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    gap: 5px;
-  }
-
-  .AboutAssignment_info_list ul {
-    width: 100%;
-    padding-left: 22px;
-    margin: 0;
-  }
-
-  .AboutAssignment_info_list li {
-    font-size: 14px;
-    line-height: 1.7;
-  }
-
-  .AboutAssignment_right {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-  }
-
-  .AboutAssignment_right_img {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-  }
-
-  .AboutAssignment_right_img img {
-    width: 100%;
-    max-width: 320px;
-    height: auto;
-    object-fit: contain;
+    width: 80vw;
   }
 }
-
-/* ========================================= */
-/* Small Tablet - 576px to 767px */
-/* ========================================= */
 
 @media (min-width: 576px) and (max-width: 767px) {
   .AboutAssignment {
-    width: 90%;
-    margin: 0 auto;
-    display: flex;
     flex-direction: column;
-    gap: 45px;
-  }
-
-  .AboutAssignment_left {
-    width: 100%;
   }
 
   .AboutAssignment_topics {
-    width: 100%;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 12px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
   }
-
-  .AboutAssignment_topics p {
-    font-size: 14px;
-    padding: 10px 14px;
-    margin: 0;
-    cursor: pointer;
+  .AboutAssignment_img {
+    width: 60vw;
+    height: 70vw;
+    margin-left: 7vw;
   }
-
-  .AboutAssignment_left hr {
-    margin: 30px 0;
+  .AboutAssignment_info p {
+    width: 80vw;
   }
-
-  .AboutAssignment_info {
-    width: 100%;
-  }
-
-  .AboutAssignment_info h4 {
-    font-size: 28px;
-    margin-bottom: 18px;
-  }
-
-  .AboutAssignment_info > p {
-    font-size: 15px;
-    line-height: 1.75;
-    margin-bottom: 25px;
-  }
-
   .AboutAssignment_info_list {
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    gap: 30px;
-  }
-
-  .AboutAssignment_info_list ul {
-    width: 50%;
-    padding-left: 22px;
-    margin: 0;
-  }
-
-  .AboutAssignment_info_list li {
-    font-size: 14px;
-    line-height: 1.8;
-  }
-
-  .AboutAssignment_right {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-  }
-
-  .AboutAssignment_right_img {
-    display: flex;
-    justify-content: center;
-  }
-
-  .AboutAssignment_right_img img {
-    width: 370px;
-    max-width: 100%;
-    height: auto;
-    object-fit: contain;
+    width: 80vw;
   }
 }
-
-/* ========================================= */
-/* Tablet - 768px to 991px */
-/* ========================================= */
-
 @media (min-width: 768px) and (max-width: 991px) {
   .AboutAssignment {
-    width: 90%;
-    margin: 0 auto;
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    gap: 35px;
+    flex-direction: column;
+    align-items: center;
   }
-
-  .AboutAssignment_left {
-    width: 65%;
-  }
-
-  .AboutAssignment_topics {
-    width: 100%;
-    display: flex;
-    flex-wrap: wrap;
-    gap: 10px;
-  }
-
-  .AboutAssignment_topics p {
-    font-size: 13px;
-    padding: 9px 12px;
-    margin: 0;
-    cursor: pointer;
-  }
-
-  .AboutAssignment_left hr {
-    margin: 25px 0;
-  }
-
-  .AboutAssignment_info {
-    width: 100%;
-  }
-
-  .AboutAssignment_info h4 {
-    font-size: 28px;
-    margin-bottom: 15px;
-  }
-
-  .AboutAssignment_info > p {
-    font-size: 14px;
-    line-height: 1.7;
-    margin-bottom: 22px;
-  }
-
-  .AboutAssignment_info_list {
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    gap: 20px;
-  }
-
-  .AboutAssignment_info_list ul {
-    width: 50%;
-    padding-left: 20px;
-    margin: 0;
-  }
-
-  .AboutAssignment_info_list li {
-    font-size: 13px;
-    line-height: 1.7;
-  }
-
-  .AboutAssignment_right {
-    width: 35%;
-    display: flex;
-    justify-content: center;
-  }
-
-  .AboutAssignment_right_img {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-  }
-
-  .AboutAssignment_right_img img {
-    width: 100%;
-    max-width: 300px;
-    height: auto;
-    object-fit: contain;
+  .AboutAssignment_img {
+    width: 50vw;
+    height: 60vw;
   }
 }

@@ -109,3 +109,111 @@
 .caseStudy_verified_icon {
   color: #00a2ff;
 }
+
+@media (max-width: 373px) {
+  .caseStudy_hero {
+    padding: 36px 16px;
+  }
+  .caseStudy_hero_container {
+    flex-direction: column;
+    text-align: center;
+    gap: 24px;
+  }
+  .caseStudy_hero_container_left img {
+    width: 180px;
+    height: auto;
+  }
+  .caseStudy_hero_container_left h1 {
+    font-size: 26px;
+  }
+  .caseStudy_container {
+    flex-direction: column;
+    padding: 32px 16px;
+    gap: 24px;
+  }
+  .caseStudy_container_right_box {
+    width: 100%;
+  }
+  .caseStudy_container_right_data {
+    width: 100%;
+  }
+  .caseStudy_container_left_data_first h3 {
+    font-size: 20px;
+  }
+}
+
+@media (min-width: 374px) and (max-width: 575px) {
+  .caseStudy_hero {
+    padding: 40px 20px;
+  }
+  .caseStudy_hero_container {
+    flex-direction: column;
+    text-align: center;
+    gap: 28px;
+  }
+  .caseStudy_hero_container_left img {
+    width: 220px;
+    height: auto;
+  }
+  .caseStudy_hero_container_left h1 {
+    font-size: 30px;
+  }
+  .caseStudy_container {
+    flex-direction: column;
+    padding: 40px 20px;
+    gap: 28px;
+  }
+  .caseStudy_container_right_box {
+    width: 100%;
+  }
+  .caseStudy_container_right_data {
+    width: 100%;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+  .caseStudy_hero_container {
+    flex-direction: column;
+    text-align: center;
+    gap: 32px;
+  }
+  .caseStudy_hero_container_left h1 {
+    font-size: 34px;
+  }
+  .caseStudy_container {
+    flex-direction: column;
+    padding: 48px 24px;
+    gap: 32px;
+  }
+  .caseStudy_container_right_box {
+    width: 100%;
+  }
+  .caseStudy_container_right_data {
+    width: 100%;
+    max-width: 420px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .caseStudy_hero_container {
+    gap: 24px;
+  }
+  .caseStudy_hero_container_left h1 {
+    font-size: 38px;
+  }
+  .caseStudy_container {
+    flex-direction: column;
+    gap: 32px;
+  }
+  .caseStudy_container_right_box {
+    width: 100%;
+  }
+  .caseStudy_container_right_data {
+    width: 100%;
+    max-width: 420px;
+  }
+  .caseStudy_container_left_data_first p,
+  .caseStudy_container_left_data_second > p:first-of-type {
+    max-width: 100%;
+  }
+}
