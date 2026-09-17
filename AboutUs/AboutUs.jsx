@@ -15,7 +15,7 @@ const AboutUs = () => {
         </div>
         <div className={Style.aboutUs_container_left}>
           <div className={Style.aboutUs_container_left_img}>
-            <img src={AboutUsImg} height={600} width={400} />
+            <img src={AboutUsImg} className={Style.aboutUs_img} />
           </div>
           <div className={Style.aboutUs_container_right}>
             <p>

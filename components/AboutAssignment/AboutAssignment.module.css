@@ -63,7 +63,7 @@
 @media (max-width: 373px) {
   .AboutAssignment {
     flex-direction: column;
-    margin-left: -7vw;
+    margin-left: -18vw;
   }
 
   .AboutAssignment_topics {
