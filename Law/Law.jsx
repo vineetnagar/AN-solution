@@ -14,7 +14,7 @@ const Law = () => {
       <div className={Style.law_hero}>
         <div className={Style.law_hero_container}>
           <div className={Style.law_hero_container_left}>
-            <img src={webLogo} alt="web-logo" width={300} height={80} />
+            <img src={webLogo} alt="web-logo" className={Style.webLogo} />
             <h1>law Assignment</h1>
             <p>Home ~ Services ~ law Assignment</p>
           </div>
@@ -28,7 +28,7 @@ const Law = () => {
 
       <div className={Style.law_container}>
         <div className={Style.law_container_left_img}>
-          <img src={lawImg} width={700} height={400} />
+          <img src={lawImg} className={Style.law_img} />
         </div>
         <div className={Style.law_container_right_box}>
           <div className={Style.law_container_right_box_data}>

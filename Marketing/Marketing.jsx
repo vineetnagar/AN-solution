@@ -14,7 +14,7 @@ const Marketing = () => {
       <div className={Style.marketing_hero}>
         <div className={Style.marketing_hero_container}>
           <div className={Style.marketing_hero_container_left}>
-            <img src={webLogo} alt="web-logo" width={300} height={80} />
+            <img src={webLogo} alt="web-logo" className={Style.webLogo} />
             <h1>Marketing Assignment</h1>
             <p>Home ~ Services ~ Marketing Assignment</p>
           </div>
@@ -28,7 +28,7 @@ const Marketing = () => {
 
       <div className={Style.marketing_container}>
         <div className={Style.marketing_container_left_img}>
-          <img src={MarketingImg} width={700} height={400} />
+          <img src={MarketingImg} className={Style.marketing_img} />
         </div>
         <div className={Style.marketing_container_right_box}>
           <div className={Style.marketing_container_right_box_data}>

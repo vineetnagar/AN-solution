@@ -13,7 +13,7 @@ const Economics = () => {
       <div className={Style.economics_hero}>
         <div className={Style.economics_hero_container}>
           <div className={Style.economics_hero_container_left}>
-            <img src={webLogo} alt="web-logo" width={300} height={80} />
+            <img src={webLogo} alt="web-logo" className={Style.webLogo} />
             <h1>Economics Assignment</h1>
             <p>Home ~ Services ~ Economics Assignment</p>
           </div>
@@ -26,7 +26,7 @@ const Economics = () => {
       </div>
       <div className={Style.economics_container}>
         <div className={Style.economics_container_left_img}>
-          <img src={EconomicsImg} width={700} height={400} />
+          <img src={EconomicsImg} className={Style.economics_img} />
         </div>
         <div className={Style.economics_container_right_box}>
           <div className={Style.economics_container_right_box_data}>

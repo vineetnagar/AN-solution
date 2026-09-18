@@ -14,7 +14,7 @@ const Nursing = () => {
       <div className={Style.nursing_hero}>
         <div className={Style.nursing_hero_container}>
           <div className={Style.nursing_hero_container_left}>
-            <img src={webLogo} alt="web-logo" width={300} height={80} />
+            <img src={webLogo} alt="web-logo" className={Style.webLogo} />
             <h1>Nursing Assignment</h1>
             <p>Home ~ Services ~ Nursing Assignment Help</p>
           </div>
@@ -28,7 +28,7 @@ const Nursing = () => {
 
       <div className={Style.nursing_container}>
         <div className={Style.nursing_container_left_img}>
-          <img src={nursingImg} width={700} height={400} />
+          <img src={nursingImg} className={Style.nursing_img} />
         </div>
         <div className={Style.nursing_container_right_box}>
           <div className={Style.nursing_container_right_box_data}>

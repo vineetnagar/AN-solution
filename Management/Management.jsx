@@ -14,7 +14,7 @@ const Management = () => {
       <div className={Style.management_hero}>
         <div className={Style.management_hero_container}>
           <div className={Style.management_hero_container_left}>
-            <img src={webLogo} alt="web-logo" width={300} height={80} />
+            <img src={webLogo} alt="web-logo" className={Style.webLogo} />
             <h1>Management Assignment</h1>
             <p>Home ~ Services ~ Management Assignment</p>
           </div>
@@ -28,7 +28,7 @@ const Management = () => {
 
       <div className={Style.management_container}>
         <div className={Style.management_container_left_img}>
-          <img src={managementImg} width={700} height={400} />
+          <img src={managementImg} className={Style.management_img} />
         </div>
         <div className={Style.management_container_right_box}>
           <div className={Style.management_container_right_box_data}>

@@ -14,7 +14,7 @@ const Finance = () => {
       <div className={Style.finance_hero}>
         <div className={Style.finance_hero_container}>
           <div className={Style.finance_hero_container_left}>
-            <img src={webLogo} alt="web-logo" width={300} height={80} />
+            <img src={webLogo} alt="web-logo" className={Style.webLogo} />
             <h1>Finance Assignment</h1>
             <p>Home ~ Services ~ Finance Assignment</p>
           </div>
@@ -28,7 +28,7 @@ const Finance = () => {
 
       <div className={Style.finance_container}>
         <div className={Style.finance_container_left_img}>
-          <img src={FinanceImg} width={700} height={400} />
+          <img src={FinanceImg} className={Style.finance_img} />
         </div>
         <div className={Style.finance_container_right_box}>
           <div className={Style.finance_container_right_box_data}>

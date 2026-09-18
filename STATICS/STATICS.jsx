@@ -15,7 +15,7 @@ const STATICS = () => {
       <div className={Style.statics_hero}>
         <div className={Style.statics_hero_container}>
           <div className={Style.statics_hero_container_left}>
-            <img src={webLogo} alt="web-logo" width={300} height={80} />
+            <img src={webLogo} alt="web-logo" className={Style.webLogo} />
             <h1>Statistics Assignment</h1>
             <p>Home ~ Services ~ Statistics Assignment</p>
           </div>
@@ -29,7 +29,7 @@ const STATICS = () => {
 
       <div className={Style.statics_container}>
         <div className={Style.statics_container_left_img}>
-          <img src={StatisticsImg} width={700} height={400} />
+          <img src={StatisticsImg} className={Style.statics_img} />
         </div>
         <div className={Style.statics_container_right_box}>
           <div className={Style.statics_container_right_box_data}>
@@ -67,8 +67,7 @@ const STATICS = () => {
               <img
                 src={statistics_img}
                 alt="statistics_img"
-                height={300}
-                width={300}
+                className={Style.statics_img2}
               />
             </div>
             <p>
