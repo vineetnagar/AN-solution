@@ -14,7 +14,7 @@ const UAE = () => {
     <div className={Style.uae}>
       <div className={Style.uae_hero}>
         <div className={Style.uae_hero_container}>
-          <img src={webLogo} alt="web-logo" width={300} height={80} />
+          <img src={webLogo} alt="web-logo" className={Style.webLogo} />
           <h1>Affordable Assignment Help in UAE by </h1>
           <h1>AN Solution</h1>
           <p>Home ~ Services ~ UAE Assignment Help</p>
@@ -22,7 +22,7 @@ const UAE = () => {
       </div>
       <div className={Style.uae_container}>
         <div className={Style.uae_container_left_img}>
-          <img src={countriesImg} width={600} height={400} />
+          <img src={countriesImg} className={Style.uae_img} />
         </div>
         <div className={Style.uae_container_right_box}>
           <div className={Style.uae_container_right_box_data}>

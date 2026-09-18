@@ -14,7 +14,7 @@ const Australia = () => {
     <div classame={Style.australia}>
       <div className={Style.australia_hero}>
         <div className={Style.australia_hero_container}>
-          <img src={webLogo} alt="web-logo" width={300} height={80} />
+          <img src={webLogo} alt="web-logo" className={Style.webLogo} />
           <h1>Instant Assignment Help Australia</h1>
           <h1>By AN Solution</h1>
           <p>Home ~ Services ~ Australia Assignment Help</p>
@@ -22,7 +22,7 @@ const Australia = () => {
       </div>
       <div className={Style.australia_container}>
         <div className={Style.australia_container_left_img}>
-          <img src={countriesImg} width={600} height={400} />
+          <img src={countriesImg} className={Style.australia_img} />
         </div>
         <div className={Style.australia_container_right_box}>
           <div className={Style.australia_container_right_box_data}>

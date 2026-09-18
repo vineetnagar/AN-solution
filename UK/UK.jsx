@@ -1,7 +1,6 @@
 import React from "react";
 import Style from "./UK.module.css";
 import { Link, Outlet } from "react-router-dom";
-import caseStudyHeroImg from "../img/caseStudyHeroImg.png";
 import UKImg from "../img/UKImg.jpg";
 import webLogo from "../img/web-logo.svg";
 import EssayWriting from "../EssayWriting/EssayWriting";
@@ -15,7 +14,7 @@ const UK = () => {
     <div className={Style.uk}>
       <div className={Style.uk_hero}>
         <div className={Style.uk_hero_container}>
-          <img src={webLogo} alt="web-logo" width={300} height={80} />
+          <img src={webLogo} alt="web-logo" className={Style.webLogo} />
           <h1>Instant Assignment</h1>
           <h1>UK at AN Solution</h1>
           <p>Home ~ Services ~ UK Assignment Help</p>
@@ -23,7 +22,7 @@ const UK = () => {
       </div>
       <div className={Style.uk_container}>
         <div className={Style.uk_container_left_img}>
-          <img src={UKImg} width={500} height={500} />
+          <img src={UKImg} className={Style.uk_img} />
         </div>
         <div className={Style.uk_container_right_box}>
           <div className={Style.uk_container_right_box_data}>
@@ -85,7 +84,7 @@ const UK = () => {
         </div>
       </div>
 
-      <div className={Style.uk}>
+      <div className={Style.uk_box}>
         <div className={Style.uk_headings}>
           <h2>What Special Features Will You Get at AN Solution?</h2>
           <p>

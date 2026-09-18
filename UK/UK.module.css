@@ -29,6 +29,11 @@
   background-color: #fff;
 }
 
+.webLogo {
+  height: 10vw;
+  width: 30vw;
+}
+
 .uk_hero_container h2 {
   font-weight: 700;
   text-decoration: underline;
@@ -49,11 +54,12 @@
   font-weight: 700;
 }
 
+.uk_img {
+  width: 40vw;
+  height: 40vw;
+}
 .uk_container {
   display: flex;
-}
-.uk_container_left_img {
-  background-color: #ffd8d8;
 }
 
 .uk_container_right_box_data {
@@ -124,17 +130,238 @@
   font-size: 0.85rem;
   color: #828282;
 }
-
-@media (min-width: 768px) and (max-width: 991px) {
-  .uk_blocks {
-    display: flex;
+@media (max-width: 373px) {
+  .uk_hero {
+    width: 100%;
+  }
+  .uk_hero_container {
+    margin-left: 10vw;
+  }
+  .uk_hero_container h1 {
+    word-wrap: break-word;
+    font-size: 1.5rem;
+  }
+  .uk_hero_container p {
+    margin-top: 6vh;
+    font-size: 0.7rem;
+  }
+  .webLogo {
+    height: 50vw;
+    width: 80vw;
+  }
+  .uk_container {
     flex-direction: column;
+  }
+  .uk_container_right_box {
+    width: 80vw;
+    margin-left: -7vw;
+  }
+  .uk_img {
+    width: 80vw;
+    height: 90vw;
+    margin-left: -7vw;
+  }
+
+  .uk_container_left_data_first {
+    width: 110%;
+    margin-left: -7vw;
+  }
+
+  .uk_container_left_data_first h3 {
+    font-size: 8vw;
+  }
+  .uk_container_left_data_first p {
+    font-size: 5vw;
+  }
+  .uk_container_right_data {
+    width: 80vw;
+
+    margin-left: -10vw;
+  }
+
+  .uk_blocks {
+    flex-direction: column;
+    align-items: center;
+  }
+  .uk_blocks_item_info {
+    width: 75vw;
+  }
+
+  .uk_blocks_item_info p {
+    font-size: 5vw;
+  }
+
+  .uk_headings {
+    width: 80vw;
+  }
+
+  .uk_headings h2 {
+    font-size: 9vw;
+  }
+  .uk_headings p {
+    font-size: 5vw;
+  }
+  .uk_blocks_item h5 {
+    font-size: 5vw;
+  }
+}
+
+@media (min-width: 374px) and (max-width: 575px) {
+  .uk_hero {
+    width: 100%;
+  }
+  .uk_hero_container {
+    margin-left: 15vw;
+  }
+  .uk_hero_container h1 {
+    word-wrap: break-word;
+    font-size: 2.3rem;
+  }
+  .uk_hero_container p {
+    margin-top: 6vh;
+  }
+  .webLogo {
+    height: 40vw;
+    width: 70vw;
+  }
+
+  .uk_container {
+    flex-direction: column;
+  }
+  .uk_container_right_box {
+    width: 80vw;
+    margin-left: -3vw;
+  }
+  .uk_img {
+    width: 80vw;
+    height: 85vw;
+    margin-left: -3vw;
+  }
+
+  .uk_container_left_data_first h3 {
+    font-size: 6vw;
+  }
+  .uk_container_left_data_first p {
+    font-size: 4vw;
+  }
+  .uk_container_right_data {
+    width: 70vw;
+  }
+
+  .uk_blocks {
+    flex-direction: column;
+    align-items: center;
+  }
+  .uk_blocks_item_info {
+    width: 75vw;
+  }
+
+  .uk_blocks_item_info p {
+    font-size: 4vw;
+  }
+
+  .uk_headings {
+    width: 80vw;
+  }
+
+  .uk_headings h2 {
+    font-size: 7vw;
+  }
+  .uk_headings p {
+    font-size: 4vw;
   }
 }
 
 @media (min-width: 576px) and (max-width: 767px) {
-  .uk_blocks {
-    display: flex;
+  .uk_hero {
+    width: 100%;
+  }
+  .uk_hero_container {
+    margin-left: 15vw;
+  }
+  .webLogo {
+    height: 20vw;
+    width: 50vw;
+    margin-top: -8vh;
+  }
+
+  .uk_container {
     flex-direction: column;
+  }
+  .uk_container_right_box {
+    width: 60vw;
+  }
+  .uk_img {
+    width: 60vw;
+    height: 65vw;
+  }
+
+  .uk_container_left_data_first h3 {
+    font-size: 5vw;
+  }
+  .uk_container_left_data_first p {
+    font-size: 3vw;
+  }
+  .uk_container_right_data {
+    width: 50vw;
+  }
+
+  .uk_blocks {
+    flex-direction: column;
+    align-items: center;
+  }
+  .uk_blocks_item_info {
+    width: 75vw;
+  }
+
+  .uk_blocks_item_info p {
+    font-size: 3vw;
+  }
+
+  .uk_headings {
+    width: 80vw;
+  }
+
+  .uk_headings h2 {
+    font-size: 5vw;
+  }
+  .uk_headings p {
+    font-size: 2.5vw;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .uk_hero {
+    width: 100%;
+  }
+  .uk_hero_container {
+    margin-left: 20vw;
+  }
+  .uk_container {
+    flex-direction: column;
+  }
+  .uk_container_right_box {
+    width: 40vw;
+  }
+  .uk_img {
+    width: 40vw;
+    height: 45vw;
+  }
+  .uk_container_left_data_first h3 {
+    font-size: 4vw;
+  }
+  .uk_container_left_data_first p {
+    font-size: 2vw;
+  }
+  .uk_container_right_data {
+    width: 40vw;
+  }
+
+  .uk_blocks {
+    flex-direction: column;
+    align-items: center;
+  }
+  .uk_blocks_item_info {
+    width: 70vw;
   }
 }

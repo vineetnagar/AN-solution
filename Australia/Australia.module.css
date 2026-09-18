@@ -124,16 +124,242 @@
   color: #828282;
 }
 
-@media (min-width: 768px) and (max-width: 991px) {
-  .australia_blocks {
-    display: flex;
+@media (max-width: 373px) {
+  .australia_hero {
+    width: 100%;
+  }
+  .australia_hero_container {
+    margin-left: 10vw;
+  }
+  .australia_hero_container h1 {
+    word-wrap: break-word;
+    font-size: 1.5rem;
+  }
+  .australia_hero_container p {
+    margin-top: 6vh;
+    font-size: 0.7rem;
+  }
+  .webLogo {
+    height: 50vw;
+    width: 80vw;
+  }
+  .australia_container {
     flex-direction: column;
+  }
+  .australia_container_right_box {
+    width: 80vw;
+    margin-left: -7vw;
+  }
+
+  .australia_container_left_img {
+    margin-left: -18vw;
+  }
+  .australia_img {
+    width: 90vw;
+    height: 60vw;
+  }
+
+  .australia_container_left_data_first {
+    width: 110%;
+    margin-left: -7vw;
+  }
+
+  .australia_container_left_data_first h3 {
+    font-size: 8vw;
+  }
+  .australia_container_left_data_first p {
+    font-size: 5vw;
+  }
+  .australia_container_right_data {
+    width: 80vw;
+    margin-left: -10vw;
+  }
+
+  .australia_blocks {
+    flex-direction: column;
+    align-items: center;
+  }
+  .australia_blocks_item_info {
+    width: 75vw;
+  }
+
+  .australia_blocks_item_info p {
+    font-size: 5vw;
+  }
+
+  .australia_headings {
+    width: 80vw;
+  }
+
+  .australia_headings h2 {
+    font-size: 9vw;
+  }
+  .australia_headings p {
+    font-size: 5vw;
+  }
+  .australia_blocks_item h5 {
+    font-size: 5vw;
+  }
+}
+
+@media (min-width: 374px) and (max-width: 575px) {
+  .australia_hero {
+    width: 100%;
+  }
+  .australia_hero_container {
+    margin-left: 15vw;
+  }
+  .australia_hero_container h1 {
+    word-wrap: break-word;
+    font-size: 2.3rem;
+  }
+  .australia_hero_container p {
+    margin-top: 6vh;
+  }
+  .webLogo {
+    height: 40vw;
+    width: 70vw;
+  }
+
+  .australia_container {
+    flex-direction: column;
+  }
+  .australia_container_right_box {
+    width: 80vw;
+    margin-left: -3vw;
+  }
+  .australia_img {
+    width: 90vw;
+    height: 60vw;
+    margin-left: -12vw;
+  }
+
+  .australia_container_left_data_first h3 {
+    font-size: 6vw;
+  }
+  .australia_container_left_data_first p {
+    font-size: 4vw;
+  }
+  .australia_container_right_data {
+    width: 70vw;
+  }
+
+  .australia_blocks {
+    flex-direction: column;
+    align-items: center;
+  }
+  .australia_blocks_item_info {
+    width: 75vw;
+  }
+
+  .australia_blocks_item_info p {
+    font-size: 4vw;
+  }
+
+  .australia_headings {
+    width: 80vw;
+  }
+
+  .australia_headings h2 {
+    font-size: 7vw;
+  }
+  .australia_headings p {
+    font-size: 4vw;
   }
 }
 
 @media (min-width: 576px) and (max-width: 767px) {
-  .australia_blocks {
-    display: flex;
+  .australia_hero {
+    width: 100%;
+  }
+  .australia_hero_container {
+    margin-left: 15vw;
+  }
+  .webLogo {
+    height: 20vw;
+    width: 50vw;
+    margin-top: -8vh;
+  }
+
+  .australia_container {
     flex-direction: column;
+  }
+  .australia_container_right_box {
+    width: 60vw;
+  }
+  .australia_img {
+    width: 90vw;
+    height: 60vw;
+    margin-left: -6vw;
+  }
+
+  .australia_container_left_data_first h3 {
+    font-size: 5vw;
+  }
+  .australia_container_left_data_first p {
+    font-size: 3vw;
+  }
+  .australia_container_right_data {
+    width: 50vw;
+  }
+
+  .australia_blocks {
+    flex-direction: column;
+    align-items: center;
+  }
+  .australia_blocks_item_info {
+    width: 75vw;
+  }
+
+  .australia_blocks_item_info p {
+    font-size: 3vw;
+  }
+
+  .australia_headings {
+    width: 80vw;
+  }
+
+  .australia_headings h2 {
+    font-size: 5vw;
+  }
+  .australia_headings p {
+    font-size: 2.5vw;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .australia_hero {
+    width: 100%;
+  }
+  .australia_hero_container {
+    margin-left: 20vw;
+  }
+  .australia_container {
+    flex-direction: column;
+  }
+  .australia_container_right_box {
+    width: 40vw;
+  }
+  .australia_img {
+    width: 90vw;
+    height: 45vw;
+    margin-left: -4vw;
+  }
+  .australia_container_left_data_first h3 {
+    font-size: 4vw;
+  }
+  .australia_container_left_data_first p {
+    font-size: 2vw;
+  }
+  .australia_container_right_data {
+    width: 40vw;
+  }
+
+  .australia_blocks {
+    flex-direction: column;
+    align-items: center;
+  }
+  .australia_blocks_item_info {
+    width: 70vw;
   }
 }

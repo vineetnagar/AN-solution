@@ -53,7 +53,9 @@ const ContactUs = () => {
           </div>
         </div>
 
-        <ProjectForm />
+        <div className={Style.ContactUs_form}>
+          <ProjectForm />
+        </div>
       </div>
     </div>
   );

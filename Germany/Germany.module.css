@@ -124,16 +124,242 @@
   color: #828282;
 }
 
-@media (min-width: 768px) and (max-width: 991px) {
-  .germany_blocks {
-    display: flex;
+@media (max-width: 373px) {
+  .germany_hero {
+    width: 100%;
+  }
+  .germany_hero_container {
+    margin-left: 10vw;
+  }
+  .germany_hero_container h1 {
+    word-wrap: break-word;
+    font-size: 1.5rem;
+  }
+  .germany_hero_container p {
+    margin-top: 6vh;
+    font-size: 0.7rem;
+  }
+  .webLogo {
+    height: 50vw;
+    width: 80vw;
+  }
+  .germany_container {
     flex-direction: column;
+  }
+  .germany_container_right_box {
+    width: 80vw;
+    margin-left: -7vw;
+  }
+
+  .germany_container_left_img {
+    margin-left: -18vw;
+  }
+  .germany_img {
+    width: 90vw;
+    height: 60vw;
+  }
+
+  .germany_container_left_data_first {
+    width: 110%;
+    margin-left: -7vw;
+  }
+
+  .germany_container_left_data_first h3 {
+    font-size: 8vw;
+  }
+  .germany_container_left_data_first p {
+    font-size: 5vw;
+  }
+  .germany_container_right_data {
+    width: 80vw;
+    margin-left: -10vw;
+  }
+
+  .germany_blocks {
+    flex-direction: column;
+    align-items: center;
+  }
+  .germany_blocks_item_info {
+    width: 75vw;
+  }
+
+  .germany_blocks_item_info p {
+    font-size: 5vw;
+  }
+
+  .germany_headings {
+    width: 80vw;
+  }
+
+  .germany_headings h2 {
+    font-size: 9vw;
+  }
+  .germany_headings p {
+    font-size: 5vw;
+  }
+  .germany_blocks_item h5 {
+    font-size: 5vw;
+  }
+}
+
+@media (min-width: 374px) and (max-width: 575px) {
+  .germany_hero {
+    width: 100%;
+  }
+  .germany_hero_container {
+    margin-left: 15vw;
+  }
+  .germany_hero_container h1 {
+    word-wrap: break-word;
+    font-size: 2.3rem;
+  }
+  .germany_hero_container p {
+    margin-top: 6vh;
+  }
+  .webLogo {
+    height: 40vw;
+    width: 70vw;
+  }
+
+  .germany_container {
+    flex-direction: column;
+  }
+  .germany_container_right_box {
+    width: 80vw;
+    margin-left: -3vw;
+  }
+  .germany_img {
+    width: 90vw;
+    height: 60vw;
+    margin-left: -12vw;
+  }
+
+  .germany_container_left_data_first h3 {
+    font-size: 6vw;
+  }
+  .germany_container_left_data_first p {
+    font-size: 4vw;
+  }
+  .germany_container_right_data {
+    width: 70vw;
+  }
+
+  .germany_blocks {
+    flex-direction: column;
+    align-items: center;
+  }
+  .germany_blocks_item_info {
+    width: 75vw;
+  }
+
+  .germany_blocks_item_info p {
+    font-size: 4vw;
+  }
+
+  .germany_headings {
+    width: 80vw;
+  }
+
+  .germany_headings h2 {
+    font-size: 7vw;
+  }
+  .germany_headings p {
+    font-size: 4vw;
   }
 }
 
 @media (min-width: 576px) and (max-width: 767px) {
-  .germany_blocks {
-    display: flex;
+  .germany_hero {
+    width: 100%;
+  }
+  .germany_hero_container {
+    margin-left: 15vw;
+  }
+  .webLogo {
+    height: 20vw;
+    width: 50vw;
+    margin-top: -8vh;
+  }
+
+  .germany_container {
     flex-direction: column;
+  }
+  .germany_container_right_box {
+    width: 60vw;
+  }
+  .germany_img {
+    width: 90vw;
+    height: 60vw;
+    margin-left: -6vw;
+  }
+
+  .germany_container_left_data_first h3 {
+    font-size: 5vw;
+  }
+  .germany_container_left_data_first p {
+    font-size: 3vw;
+  }
+  .germany_container_right_data {
+    width: 50vw;
+  }
+
+  .germany_blocks {
+    flex-direction: column;
+    align-items: center;
+  }
+  .germany_blocks_item_info {
+    width: 75vw;
+  }
+
+  .germany_blocks_item_info p {
+    font-size: 3vw;
+  }
+
+  .germany_headings {
+    width: 80vw;
+  }
+
+  .germany_headings h2 {
+    font-size: 5vw;
+  }
+  .germany_headings p {
+    font-size: 2.5vw;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .germany_hero {
+    width: 100%;
+  }
+  .germany_hero_container {
+    margin-left: 20vw;
+  }
+  .germany_container {
+    flex-direction: column;
+  }
+  .germany_container_right_box {
+    width: 40vw;
+  }
+  .germany_img {
+    width: 90vw;
+    height: 45vw;
+    margin-left: -4vw;
+  }
+  .germany_container_left_data_first h3 {
+    font-size: 4vw;
+  }
+  .germany_container_left_data_first p {
+    font-size: 2vw;
+  }
+  .germany_container_right_data {
+    width: 40vw;
+  }
+
+  .germany_blocks {
+    flex-direction: column;
+    align-items: center;
+  }
+  .germany_blocks_item_info {
+    width: 70vw;
   }
 }
