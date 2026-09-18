@@ -12,7 +12,7 @@ const EssayWriting = () => {
       <div className={Style.essayWriting_hero}>
         <div className={Style.essayWriting_hero_container}>
           <div className={Style.essayWriting_hero_container_left}>
-            <img src={webLogo} alt="web-logo" width={300} height={80} />
+            <img src={webLogo} alt="web-logo" className={Style.webLogo} />
 
             <h1> Essay Writing</h1>
             <p>Home ~ Services ~ Essay Writing</p>
@@ -26,7 +26,7 @@ const EssayWriting = () => {
       </div>
       <div className={Style.essayWriting_container}>
         <div className={Style.essayWriting_container_left_img}>
-          <img src={essayWritingImg} width={700} height={400} />
+          <img src={essayWritingImg} className={Style.essayWriting_img} />
         </div>
         <div className={Style.essayWriting_container_right_box}>
           <div className={Style.essayWriting_container_right_box_data}>

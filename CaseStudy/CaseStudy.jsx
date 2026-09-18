@@ -20,7 +20,7 @@ const CaseStudy = () => {
       <div className={Style.caseStudy_hero}>
         <div className={Style.caseStudy_hero_container}>
           <div className={Style.caseStudy_hero_container_left}>
-            <img src={webLogo} alt="web-logo" width={300} height={80} />
+            <img src={webLogo} alt="web-logo" className={Style.webLogo} />
             <h1>Case Study</h1>
             <p>Home ~ Services ~ Case Study Help</p>
           </div>
@@ -34,7 +34,7 @@ const CaseStudy = () => {
 
       <div className={Style.caseStudy_container}>
         <div className={Style.caseStudy_container_left_img}>
-          <img src={caseStudyImg} width={700} height={400} />
+          <img src={caseStudyImg} className={Style.caseStudy_img} />
         </div>
         <div className={Style.caseStudy_container_right_box}>
           <div className={Style.caseStudy_container_right_box_data}>

@@ -10,28 +10,31 @@ import { GiClockwork } from "react-icons/gi";
 
 const ReflectiveWriting = () => {
   return (
-    <div className={Style.essayWriting}>
-      <div className={Style.essayWriting_hero}>
-        <div className={Style.essayWriting_hero_container}>
-          <div className={Style.essayWriting_hero_container_left}>
-            <img src={webLogo} alt="web-logo" width={300} height={80} />
+    <div className={Style.reflectiveWriting}>
+      <div className={Style.reflectiveWriting_hero}>
+        <div className={Style.reflectiveWriting_hero_container}>
+          <div className={Style.reflectiveWriting_hero_container_left}>
+            <img src={webLogo} alt="web-logo" className={Style.webLogo} />
             <h1>Reflective Writing Assignment</h1>
             <p>Home ~ Services ~ Reflective Writing</p>
           </div>
-          <div className={Style.essayWriting_hero_container_right}>
-            <div className={Style.essayWriting_hero_container_right_img}>
+          <div className={Style.reflectiveWriting_hero_container_right}>
+            <div className={Style.reflectiveWriting_hero_container_right_img}>
               <img src={caseStudyHeroImg} width={400} height={250} />
             </div>
           </div>
         </div>
       </div>
 
-      <div className={Style.essayWriting_container}>
-        <div className={Style.essayWriting_container_left_img}>
-          <img src={reflectiveWritingImg} width={700} height={400} />
+      <div className={Style.reflectiveWriting_container}>
+        <div className={Style.reflectiveWriting_container_left_img}>
+          <img
+            src={reflectiveWritingImg}
+            className={Style.reflectiveWriting_img}
+          />
         </div>
-        <div className={Style.essayWriting_container_right_box}>
-          <div className={Style.essayWriting_container_right_box_data}>
+        <div className={Style.reflectiveWriting_container_right_box}>
+          <div className={Style.reflectiveWriting_container_right_box_data}>
             <Link to="/caseStudy">Case Study Help</Link>
             <Link to="/essayWriting">Essay Writing</Link>
             <Link to="/reflectiveWriting">Reflective Writing</Link>
@@ -44,9 +47,9 @@ const ReflectiveWriting = () => {
         </div>
       </div>
 
-      <div className={Style.essayWriting_container}>
-        <div className={Style.essayWriting_container_left_data}>
-          <div className={Style.essayWriting_container_left_data_first}>
+      <div className={Style.reflectiveWriting_container}>
+        <div className={Style.reflectiveWriting_container_left_data}>
+          <div className={Style.reflectiveWriting_container_left_data_first}>
             <h3>Reflective Writing Assignment</h3>
             <p>
               Reflection is the birthplace of ideas, a journey that unfolds as
@@ -59,7 +62,7 @@ const ReflectiveWriting = () => {
             </p>
           </div>
 
-          <div className={Style.essayWriting_container_left_data_second}>
+          <div className={Style.reflectiveWriting_container_left_data_second}>
             <h5>Useful Questions to Guide Students</h5>
             <ul>
               <li>
@@ -90,9 +93,11 @@ const ReflectiveWriting = () => {
           </div>
         </div>
 
-        <div className={Style.essayWriting_container_right_data}>
-          <div className={Style.essayWriting_container_right_data_box}>
-            <div className={Style.essayWriting_container_right_data_box_icon}>
+        <div className={Style.reflectiveWriting_container_right_data}>
+          <div className={Style.reflectiveWriting_container_right_data_box}>
+            <div
+              className={Style.reflectiveWriting_container_right_data_box_icon}
+            >
               <GiClockwork />
             </div>
             <h5>Consult with expert &</h5>
@@ -105,8 +110,8 @@ const ReflectiveWriting = () => {
         </div>
       </div>
 
-      <div className={Style.essayWriting_container2}>
-        <div className={Style.essayWriting_container_left_data_1}>
+      <div className={Style.reflectiveWriting_container2}>
+        <div className={Style.reflectiveWriting_container_left_data_1}>
           <h5>High Distinction Reflective Writing Assignment Services</h5>
           <p>
             Unlock academic excellence with our High Distinction Reflective
@@ -117,57 +122,57 @@ const ReflectiveWriting = () => {
           </p>
         </div>
 
-        <div className={Style.essayWriting_container_left_data_2}>
+        <div className={Style.reflectiveWriting_container_left_data_2}>
           <p>
             <MdOutlineVerifiedUser
-              className={Style.essayWriting_verified_icon}
+              className={Style.reflectiveWriting_verified_icon}
             />
             An understanding of the topic.
           </p>
           <p>
             <MdOutlineVerifiedUser
-              className={Style.essayWriting_verified_icon}
+              className={Style.reflectiveWriting_verified_icon}
             />
             The assignment shall demonstrate an exceptionally high level of
             understanding of the chosen topic.
           </p>
           <p>
             <MdOutlineVerifiedUser
-              className={Style.essayWriting_verified_icon}
+              className={Style.reflectiveWriting_verified_icon}
             />
             It shall demonstrate how the chosen topic can be applied to a
             learning environment.
           </p>
           <p>
             <MdOutlineVerifiedUser
-              className={Style.essayWriting_verified_icon}
+              className={Style.reflectiveWriting_verified_icon}
             />
             Provide a very strong argument for and/or against a particular
             theory/topic in the light of current literature.
           </p>
           <p>
             <MdOutlineVerifiedUser
-              className={Style.essayWriting_verified_icon}
+              className={Style.reflectiveWriting_verified_icon}
             />
             The presentation is in accordance to the prescribed university
             guidelines.
           </p>
           <p>
             <MdOutlineVerifiedUser
-              className={Style.essayWriting_verified_icon}
+              className={Style.reflectiveWriting_verified_icon}
             />
             It is written in accordance to the standard essay structure.
           </p>
           <p>
             <MdOutlineVerifiedUser
-              className={Style.essayWriting_verified_icon}
+              className={Style.reflectiveWriting_verified_icon}
             />
             The ideas and responses are supported with reference from the set
             reading and one extra independently sourced peer-reviewed reference.
           </p>
           <p>
             <MdOutlineVerifiedUser
-              className={Style.essayWriting_verified_icon}
+              className={Style.reflectiveWriting_verified_icon}
             />
             Standard format of referencing like that of APA, Harvard
             Referencing, etc.

@@ -14,7 +14,7 @@ const ResearchWriting = () => {
       <div className={Style.researchWriting_hero}>
         <div className={Style.researchWriting_hero_container}>
           <div className={Style.researchWriting_hero_container_left}>
-            <img src={webLogo} alt="web-logo" width={300} height={80} />
+            <img src={webLogo} alt="web-logo" className={Style.weblogo} />
             <h1>Research Paper</h1>
             <p>Home ~ Services ~ Research Paper Writing</p>
           </div>
@@ -28,7 +28,7 @@ const ResearchWriting = () => {
 
       <div className={Style.researchWriting_container}>
         <div className={Style.researchWriting_container_left_img}>
-          <img src={researchWritingImg} width={700} height={400} />
+          <img src={researchWritingImg} className={Style.researchWriting_img} />
         </div>
         <div className={Style.researchWriting_container_right_box}>
           <div className={Style.researchWriting_container_right_box_data}>

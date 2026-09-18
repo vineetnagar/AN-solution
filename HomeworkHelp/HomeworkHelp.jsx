@@ -14,7 +14,7 @@ const HomeworkHelp = () => {
       <div className={Style.homeworkHelp_hero}>
         <div className={Style.homeworkHelp_hero_container}>
           <div className={Style.homeworkHelp_hero_container_left}>
-            <img src={webLogo} alt="web-logo" width={300} height={80} />
+            <img src={webLogo} alt="web-logo" className={Style.webLogo} />
             <h1>Homework Help</h1>
             <p>Home ~ Services ~ Homework Help</p>
           </div>
@@ -28,7 +28,7 @@ const HomeworkHelp = () => {
 
       <div className={Style.homeworkHelp_container}>
         <div className={Style.homeworkHelp_container_left_img}>
-          <img src={homeworkHelp} width={700} height={400} />
+          <img src={homeworkHelp} className={Style.homeworkHelp_img} />
         </div>
         <div className={Style.homeworkHelp_container_right_box}>
           <div className={Style.homeworkHelp_container_right_box_data}>

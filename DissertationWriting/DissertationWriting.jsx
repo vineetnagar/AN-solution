@@ -14,7 +14,7 @@ const DissertationWriting = () => {
       <div className={Style.dissertationWriting_hero}>
         <div className={Style.dissertationWriting_hero_container}>
           <div className={Style.dissertationWriting_hero_container_left}>
-            <img src={webLogo} alt="web-logo" width={300} height={80} />
+            <img src={webLogo} alt="web-logo" className={Style.webLogo} />
             <h1>Dissertation Writing</h1>
             <p>Home ~ Services ~ Dissertation Writing</p>
           </div>
@@ -28,7 +28,10 @@ const DissertationWriting = () => {
 
       <div className={Style.dissertationWriting_container}>
         <div className={Style.dissertationWriting_container_left_img}>
-          <img src={dissertationWritingImg} width={700} height={400} />
+          <img
+            src={dissertationWritingImg}
+            className={Style.dissertationWriting_img}
+          />
         </div>
         <div className={Style.dissertationWriting_container_right_box}>
           <div className={Style.dissertationWriting_container_right_box_data}>

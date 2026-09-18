@@ -14,7 +14,7 @@ const ResumeWriting = () => {
       <div className={Style.resumeWriting_hero}>
         <div className={Style.resumeWriting_hero_container}>
           <div className={Style.resumeWriting_hero_container_left}>
-            <img src={webLogo} alt="web-logo" width={300} height={80} />
+            <img src={webLogo} alt="web-logo" className={Style.webLogo} />
             <h1>Resume Writing</h1>
             <p>Home ~ Services ~ Resume Writing</p>
           </div>
@@ -28,7 +28,7 @@ const ResumeWriting = () => {
 
       <div className={Style.resumeWriting_container}>
         <div className={Style.resumeWriting_container_left_img}>
-          <img src={resumeWritingImg} width={700} height={400} />
+          <img src={resumeWritingImg} className={Style.resumeWriting_img} />
         </div>
         <div className={Style.resumeWriting_container_right_box}>
           <div className={Style.resumeWriting_container_right_box_data}>

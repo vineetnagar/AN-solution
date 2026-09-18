@@ -14,7 +14,7 @@ const STATA = () => {
       <div className={Style.STATA_hero}>
         <div className={Style.STATA_hero_container}>
           <div className={Style.STATA_hero_container_left}>
-            <img src={webLogo} alt="web-logo" width={300} height={80} />
+            <img src={webLogo} alt="web-logo" className={Style.webLogo} />
             <h1>STATA Assignment</h1>
             <p>Home ~ Services ~ STATA Assignment</p>
           </div>
@@ -28,7 +28,7 @@ const STATA = () => {
 
       <div className={Style.STATA_container}>
         <div className={Style.STATA_container_left_img}>
-          <img src={homeworkHelp} width={700} height={400} />
+          <img src={homeworkHelp} className={Style.STATA_img} />
         </div>
         <div className={Style.STATA_container_right_box}>
           <div className={Style.STATA_container_right_box_data}>
