@@ -28,7 +28,7 @@ const ContactUs = () => {
               <div
                 className={Style.contactUs_container_left_container_col_data}
               >
-                <p>25-B Krishna Nagar Kota</p>
+                <p> Krishna Nagar Kota</p>
                 <p>324005, Rajasthan, INDIA</p>
               </div>
             </div>

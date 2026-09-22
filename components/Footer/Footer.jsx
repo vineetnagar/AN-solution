@@ -141,7 +141,7 @@ const Footer = () => {
             <FaMailBulk />
           </div>
           <ul>
-            <li>anirudhnagar@gmail.com</li>
+            <li>anirudhnagar24@gmail.com</li>
           </ul>
         </div>
       </div>
