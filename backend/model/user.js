@@ -12,13 +12,6 @@ const userSchema = new mongoose.Schema({
   contact: {
     type: String,
     required: true,
-    validate: {
-      validator: function (value) {
-        return /^(\+\d{1,3}[- ]?)?\d{10}$/.test(value);
-      },
-      message: (props) =>
-        `${props.value} is not a valid contact number. Must be a 10-digit number, optionally prefixed with a country code (e.g. +91 9876543210).`,
-    },
   },
   subject: {
     type: String,

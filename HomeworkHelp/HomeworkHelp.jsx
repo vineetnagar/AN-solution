@@ -107,8 +107,8 @@ const HomeworkHelp = () => {
           <div className={Style.homeworkHelp_container_left_data_second}>
             <h5>Reasons to Contact AN Solution for Homework Help Service</h5>
             <p>
-              Arc Creatif Solution stands out as a premier assignment writing
-              service, offering key features such as punctual delivery, ensuring
+              AN Solution stands out as a premier assignment writing service,
+              offering key features such as punctual delivery, ensuring
               assignments are submitted on time, and a commitment to providing
               plagiarism-free papers. Our dedication to quality and reliability
               sets us apart, making us a trusted partner for students seeking
@@ -158,7 +158,7 @@ const HomeworkHelp = () => {
             <hr />
             <p>+91 9799772967</p>
             <p>+91 9799772967</p>
-            <p>Email: an@gmail.com</p>
+            <p>Email: anirudhnagar24@gmail.com</p>
           </div>
         </div>
       </div>

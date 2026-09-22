@@ -195,20 +195,95 @@ const Navbar = () => {
             <div className={Style.Navbar_container_menu_sidebar}>
               <div className={Style.Navbar_container_menu_sidebar_container}>
                 <div className={Style.Navbar_container_links_items}>
-                  <div>Home</div>
-                  <div>
-                    About Us <IoIosArrowDown />
+                  <Link to="/" onClick={() => setMenu(false)}>
+                    Home
+                  </Link>
+                  <Link to="/aboutUs" onClick={() => setMenu(false)}>
+                    About Us
+                  </Link>
+
+                  <p onClick={() => openServices()}>
+                    Services {services ? <IoIosArrowDown /> : <IoIosArrowUp />}
+                  </p>
+                  <div
+                    className={`${Style.mobileDropdown} ${services ? Style.mobileDropdown_open : ""}`}
+                  >
+                    {Services.map((el, i) => (
+                      <div className={Style.services_container} key={i}>
+                        <ul>
+                          <li>
+                            <Link
+                              to={el.link}
+                              onClick={() => {
+                                closeAll();
+                                setMenu(false);
+                              }}
+                            >
+                              <MdDoubleArrow />
+                              {el.name}
+                            </Link>
+                          </li>
+                        </ul>
+                      </div>
+                    ))}
                   </div>
-                  <div>
-                    Services <IoIosArrowDown />
+
+                  <p onClick={() => openSample()}>
+                    Sample {sample ? <IoIosArrowDown /> : <IoIosArrowUp />}
+                  </p>
+                  <div
+                    className={`${Style.mobileDropdown} ${sample ? Style.mobileDropdown_open : ""}`}
+                  >
+                    {Sample.map((el, i) => (
+                      <div className={Style.sample_container} key={i}>
+                        <ul>
+                          <li>
+                            <Link
+                              to={el.link}
+                              onClick={() => {
+                                closeAll();
+                                setMenu(false);
+                              }}
+                            >
+                              <MdDoubleArrow />
+                              {el.name}
+                            </Link>
+                          </li>
+                        </ul>
+                      </div>
+                    ))}
                   </div>
-                  <div>
-                    Sample <IoIosArrowDown />
+
+                  <p onClick={() => openCountries()}>
+                    Countries{" "}
+                    {countries ? <IoIosArrowDown /> : <IoIosArrowUp />}
+                  </p>
+                  <div
+                    className={`${Style.mobileDropdown} ${countries ? Style.mobileDropdown_open : ""}`}
+                  >
+                    {Countries.map((el, i) => (
+                      <div className={Style.countries_container} key={i}>
+                        <ul>
+                          <li>
+                            <Link
+                              to={el.link}
+                              onClick={() => {
+                                closeAll();
+                                setMenu(false);
+                              }}
+                            >
+                              <MdDoubleArrow />
+                              {el.name}
+                            </Link>
+                          </li>
+                        </ul>
+                      </div>
+                    ))}
                   </div>
-                  <div>
-                    Countries <IoIosArrowDown />
-                  </div>
-                  <div>Contact Us</div>
+
+                  <Link to="/contactUs" onClick={() => setMenu(false)}>
+                    Contact Us
+                  </Link>
                 </div>
               </div>
             </div>

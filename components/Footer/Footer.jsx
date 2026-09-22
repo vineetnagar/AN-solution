@@ -117,7 +117,7 @@ const Footer = () => {
           <div className={Style.Footer_container_row1_info}>
             <ul>
               <li>Base at and Main office</li>
-              <li>25-B R.K Puram Kota Rajasthan</li>
+              <li> Krishna Nagar, Kota Rajasthan</li>
               <li>324005</li>
             </ul>
           </div>
@@ -129,8 +129,8 @@ const Footer = () => {
           </div>
           <div className={Style.Footer_container_row2_info}>
             <ul>
-              <li> +919799772967 || +919799772967</li>
-              <li>Mon = Sat 9:00 am to 6:00 pm</li>
+              <li> +91 6377592124 </li>
+              <li>Mon - Sat 11:00 am to 6:00 pm</li>
             </ul>
           </div>
         </div>
@@ -141,7 +141,7 @@ const Footer = () => {
             <FaMailBulk />
           </div>
           <ul>
-            <li>abc@gmail.com</li>
+            <li>anirudhnagar@gmail.com</li>
           </ul>
         </div>
       </div>

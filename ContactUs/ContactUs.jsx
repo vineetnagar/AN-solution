@@ -1,17 +1,18 @@
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect, useRef } from "react";
 import Style from "./ContactUs.module.css";
 import { IoLocationOutline } from "react-icons/io5";
 import webLogo from "../img/web-logo.svg";
 import ProjectForm from "../ProjectForm/ProjectForm";
 import { GiClockwork } from "react-icons/gi";
 import { FaMailBulk } from "react-icons/fa";
+import { FaRegCopy } from "react-icons/fa6";
 
 const ContactUs = () => {
   return (
     <div className={Style.contactUs}>
       <div className={Style.contactUs_hero}>
         <div className={Style.contactUs_hero_container}>
-          <img src={webLogo} alt="web-logo" width={300} height={80} />
+          <img src={webLogo} alt="web-logo" className={Style.webLogo} />
           <h1>Contact Us</h1>
           <p>Consult with expert & Start today</p>
         </div>
@@ -27,7 +28,7 @@ const ContactUs = () => {
               <div
                 className={Style.contactUs_container_left_container_col_data}
               >
-                <p>25-B R.K Puram Kota</p>
+                <p>25-B Krishna Nagar Kota</p>
                 <p>324005, Rajasthan, INDIA</p>
               </div>
             </div>
@@ -37,8 +38,7 @@ const ContactUs = () => {
               <div
                 className={Style.contactUs_container_left_container_col_data}
               >
-                <p>+91 9799772967</p>
-                <p>+91 9799772967</p>
+                <p>+91 6377592124</p>
               </div>
             </div>
             <hr />
@@ -47,7 +47,7 @@ const ContactUs = () => {
               <div
                 className={Style.contactUs_container_left_container_col_data}
               >
-                <p>abc@gmail.com</p>
+                <p>anirudhnagar24@gmail.com</p>
               </div>
             </div>
           </div>
