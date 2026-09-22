@@ -157,8 +157,7 @@ const STATA = () => {
             <h5>Consult with expert &</h5>
             <h5>Start Today</h5>
             <hr />
-            <p>+91 9799772967</p>
-            <p>+91 9799772967</p>
+            <p>+91 6377592124</p>
             <p>Email: anirudhnagar24@gmail.com</p>
           </div>
         </div>

@@ -63,10 +63,10 @@
   background-color: #ffd8d8;
 }
 
-.homeworkHelp_container_right_data_box {
+.homeworkHelp_container_right_box_data {
   display: flex;
   flex-direction: column;
-  width: 12rem;
+  width: 16em;
 }
 
 .homeworkHelp_container_right_box_data a {
