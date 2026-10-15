@@ -77,12 +77,12 @@
   }
   .AboutAssignment_info p {
     width: 80vw;
-    margin-left: -10vw;
+    /* margin-left: -5vw; */
   }
   .AboutAssignment_info_list {
     width: 80vw;
     font-size: 5vw;
-    margin-left: -25vw;
+    margin-left: -13vw;
   }
 }
 @media (min-width: 374px) and (max-width: 575px) {
