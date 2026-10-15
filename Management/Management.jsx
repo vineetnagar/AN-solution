@@ -2,7 +2,7 @@ import React from "react";
 import Style from "./Management.module.css";
 import { Link } from "react-router-dom";
 import caseStudyHeroImg from "../img/caseStudyHeroImg.png";
-import managementImg from "../img/managementImg.png";
+import managementImg from "../img/ManagementImg.png";
 import webLogo from "../img/web-logo.svg";
 import EssayWriting from "../EssayWriting/EssayWriting";
 import { MdOutlineVerifiedUser } from "react-icons/md";

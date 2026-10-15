@@ -2,7 +2,7 @@ import React from "react";
 import Style from "./Law.module.css";
 import { Link } from "react-router-dom";
 import caseStudyHeroImg from "../img/caseStudyHeroImg.png";
-import lawImg from "../img/lawImg.png";
+import lawImg from "../img/LawImg.png";
 import webLogo from "../img/web-logo.svg";
 import EssayWriting from "../EssayWriting/EssayWriting";
 import { MdOutlineVerifiedUser } from "react-icons/md";
